@@ -37,7 +37,7 @@ export default defineUserConfig({
 
     // configure default theme
     theme: defaultTheme({
-        logo: '/images/hero.png',
+        logo: '/images/logo.svg',
         repo: 'daktadeo/multipass-docs',
         docsDir: 'docs',
 
