@@ -1,14 +1,8 @@
-# Introduction
+# Introduction 
 
 :::warning remember this
-Everyone that your Team has contact with **outside** the internal structure, belongs in Contacts.
+Everyone that exists in **your Team's internal structure**, belongs in Humans.
 :::
-
-With the app Contacts your Team Manages *external* contact info. This is where you collect your network data from **outside** your Team.
-
-In a bussiness context these are your Clients, Prospects, Suppliers,.. 
-
-In a Society context, here is where your society members data is stored.
 
 ## Examples
 
@@ -28,6 +22,4 @@ In a Society context, here is where your society members data is stored.
 | a family that bought a car | Contact  | The Smiths |
 | the contact info of the father of a child you look after | Contact &rarr; Persons | The Smiths &rarr; Bill |
 | all the family members | Contact &rarr; Persons  | The Smiths &rarr; Bill, Martine, .. |
-
-
 
