@@ -1,6 +1,9 @@
+import './styles/colors.css'
 import './styles/index.css'
+import './styles/tailwind.postcss'
+
 import { h, App } from 'vue'
-import { VPTheme } from '@vue/theme'
+import { VPTheme } from '@daktadeo/theme'
 import PreferenceSwitch from './components/PreferenceSwitch.vue'
 import {
   preferComposition,

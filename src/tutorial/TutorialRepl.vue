@@ -14,7 +14,7 @@ import {
   VTIconChevronLeft,
   VTIconChevronRight,
   VTLink
-} from '@vue/theme'
+} from '@daktadeo/theme'
 
 const store = new ReplStore({
   defaultVueRuntimeURL: `https://unpkg.com/vue@${version}/dist/vue.esm-browser.js`

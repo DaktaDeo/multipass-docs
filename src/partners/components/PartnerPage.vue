@@ -3,7 +3,7 @@ import data from '../partners.json'
 import { Partner } from './type'
 import { normalizeName, track } from './utils'
 import PartnerCard from './PartnerCard.vue'
-import { VTIconChevronLeft } from '@vue/theme'
+import { VTIconChevronLeft } from '@daktadeo/theme'
 
 const props = defineProps<{
   partner: string

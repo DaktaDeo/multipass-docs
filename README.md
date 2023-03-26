@@ -2,7 +2,7 @@
 
 ## Contributing
 
-This site is built with [VitePress](https://github.com/vuejs/vitepress) and depends on our clone of [@vue/theme](https://github.com/vuejs/vue-theme), [@daktadeo/multipass](https://github.com/daktadeo/multipass). Site content is written in Markdown format located in `src`. For simple edits, you can directly edit the file on GitHub and generate a Pull Request.
+This site is built with [VitePress](https://github.com/vuejs/vitepress) and depends on our clone of [@daktadeo/theme](https://github.com/vuejs/vue-theme), [@daktadeo/multipass](https://github.com/daktadeo/multipass). Site content is written in Markdown format located in `src`. For simple edits, you can directly edit the file on GitHub and generate a Pull Request.
 
 Each locale has his own repo.
 

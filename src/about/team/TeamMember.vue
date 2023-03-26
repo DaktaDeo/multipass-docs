@@ -11,7 +11,7 @@ import {
   VTIconMapPin,
   VTIconTwitter,
   VTLink
-} from '@vue/theme'
+} from '@daktadeo/theme'
 import type { Member } from './Member'
 
 const props = defineProps<{

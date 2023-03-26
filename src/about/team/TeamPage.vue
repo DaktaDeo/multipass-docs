@@ -21,7 +21,7 @@ const shuffleMembers = (members: Member[], pinTheFirstMember = false): void => {
 </script>
 
 <script setup lang="ts">
-import { VTLink } from '@vue/theme'
+import { VTLink } from '@daktadeo/theme'
 import membersCoreData from './members-core.json'
 import membersEmeritiData from './members-emeriti.json'
 import membersPartnerData from './members-partner.json'

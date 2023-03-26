@@ -13,17 +13,19 @@ onMounted(async () => {
 
 <template>
   <section id="hero">
+    <div class="text-xl text--mp-grey">
+      <span class="text--orange font-bold">Together</span> we'll create...<br/>
+    </div>
     <h1 class="tagline">
-      The
-      <span class="accent">Progressive</span>
-      <br />JavaScript Framework
+      <span class="accent">Tools</span> <span>to save</span> <span class="text--deo">Time</span>
     </h1>
+    <span class="text-md text--mp-grey font-light">
+      Discover, Define, Develop, Deploy, Document, Deliver, Evolve --repeat
+    </span>
     <p class="description">
-      An approachable, performant and versatile framework for building web
-      user interfaces.
+      With Multipass you can organize your digital administration in one single place. <br/>
     </p>
     <p class="actions">
-      <VueMasteryModal />
       <a class="get-started" href="/guide/introduction.html">
         Get Started
         <svg
@@ -38,41 +40,15 @@ onMounted(async () => {
           />
         </svg>
       </a>
-      <a class="setup" href="/guide/quick-start.html">Install</a>
     </p>
   </section>
 
-  <section id="special-sponsor">
-    <span class="lead">Special Sponsor</span>
-    <template v-if="data && data.special">
-      <template v-for="{ url, img, name, description } of data.special">
-        <a :href="url" target="_blank" rel="sponsored noopener">
-          <picture v-if="img.endsWith('png')">
-            <source
-              type="image/avif"
-              :srcset="`${base}/images/${img.replace(/\.png$/, '.avif')}`"
-            />
-            <img :src="`${base}/images/${img}`" :alt="name" />
-          </picture>
-          <img
-            width="168"
-            height="42"
-            v-else
-            :src="`${base}/images/${img}`"
-            :alt="name"
-          />
-        </a>
-        <span>{{ description }}</span>
-      </template>
-    </template>
-  </section>
 
   <section id="highlights" class="vt-box-container">
     <div class="vt-box">
-      <h2>Approachable</h2>
+      <h2>Target Audience</h2>
       <p>
-        Builds on top of standard HTML, CSS and JavaScript with intuitive
-        API and world-class documentation.
+        Multipass is specifically designed for the needs of the modern digital freelancing nomad, small business owner, non-profit organizations, individuals and startup.
       </p>
     </div>
     <div class="vt-box">

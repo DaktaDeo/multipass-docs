@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { VTSwitch, VTIconChevronDown } from '@vue/theme'
+import { VTSwitch, VTIconChevronDown } from '@daktadeo/theme'
 import { useRoute } from 'vitepress'
 import { ref, computed, inject, Ref } from 'vue'
 import {
@@ -168,7 +168,7 @@ function useToggleFn(
 
 .switch-container {
   display: flex;
-  align-items: center;  
+  align-items: center;
 }
 
 @media(max-width: 959px){

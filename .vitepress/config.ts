@@ -1,8 +1,8 @@
 import fs from 'fs'
 import path from 'path'
 import { defineConfigWithTheme } from 'vitepress'
-import type { Config as ThemeConfig } from '@vue/theme'
-import baseConfig from '@vue/theme/config'
+import type { Config as ThemeConfig } from '@daktadeo/theme'
+import baseConfig from '@daktadeo/theme/config'
 import { headerPlugin } from './headerMdPlugin'
 
 const nav: ThemeConfig['nav'] = [
