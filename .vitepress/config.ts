@@ -103,9 +103,9 @@ const nav: ThemeConfig['nav'] = [
   {
     text: 'Legal',
     items: [
-      { text: 'Sales Terms (dutch)', link: 'https://daktadeo.be/files/DaktaDeo%20Algemene%20leveringsvoorwaarden%20v2018-09.pdf' },
-      { text: 'Privacy Policy', link: 'https://beta.multipass.rocks/privacy-policy' },
-      { text: 'Terms', link: 'https://beta.multipass.rocks/terms-of-service' },
+      { text: 'Sales Terms (NL)', link: 'https://daktadeo.be/files/DaktaDeo%20Algemene%20leveringsvoorwaarden%20v2018-09.pdf' },
+      { text: 'Privacy Policy', link: 'https://daktadeo.be/privacy' },
+      { text: 'Terms (NL)', link: 'https://beta.multipass.rocks/terms-of-service' },
       { text: 'Open Source', link: '/ecosystem/opensource' }
     ]
   }
