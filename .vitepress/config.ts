@@ -4,6 +4,7 @@ import { defineConfigWithTheme } from 'vitepress'
 import type { Config as ThemeConfig } from '@daktadeo/theme'
 import baseConfig from '@daktadeo/theme/config'
 import { headerPlugin } from './headerMdPlugin'
+const isProd = process.env.NODE_ENV === 'production'
 
 const nav: ThemeConfig['nav'] = [
   {
@@ -14,15 +15,6 @@ const nav: ThemeConfig['nav'] = [
       { text: 'Tutorial', link: '/tutorial/' },
       { text: 'Examples', link: '/examples/' },
       { text: 'Quick Start', link: '/guide/quick-start' },
-      // { text: 'Style Guide', link: '/style-guide/' },
-      {
-        text: 'Vue 2 Docs',
-        link: 'https://v2.vuejs.org'
-      },
-      {
-        text: 'Migration from Vue 2',
-        link: 'https://v3-migration.vuejs.org/'
-      }
     ]
   },
   {
@@ -31,66 +23,62 @@ const nav: ThemeConfig['nav'] = [
     link: '/api/'
   },
   {
-    text: 'Playground',
-    link: 'https://sfc.vuejs.org'
-  },
-  {
     text: 'Ecosystem',
     activeMatch: `^/ecosystem/`,
     items: [
-      {
-        text: 'Resources',
-        items: [
-          { text: 'Partners', link: '/partners/' },
-          { text: 'Themes', link: '/ecosystem/themes' },
-          { text: 'Jobs', link: 'https://vuejobs.com/?ref=vuejs' },
-          { text: 'T-Shirt Shop', link: 'https://vue.threadless.com/' }
-        ]
-      },
-      {
-        text: 'Official Libraries',
-        items: [
-          { text: 'Vue Router', link: 'https://router.vuejs.org/' },
-          { text: 'Pinia', link: 'https://pinia.vuejs.org/' },
-          { text: 'Tooling Guide', link: '/guide/scaling-up/tooling.html' }
-        ]
-      },
-      {
-        text: 'Video Courses',
-        items: [
-          {
-            text: 'Vue Mastery',
-            link: 'https://www.vuemastery.com/courses/'
-          },
-          {
-            text: 'Vue School',
-            link: 'https://vueschool.io/?friend=vuejs&utm_source=Vuejs.org&utm_medium=Link&utm_content=Navbar%20Dropdown'
-          }
-        ]
-      },
+      // {
+      //   text: 'Resources',
+      //   items: [
+      //     { text: 'Partners', link: '/partners/' },
+      //     { text: 'Themes', link: '/ecosystem/themes' },
+      //     // { text: 'Jobs', link: 'https://vuejobs.com/?ref=vuejs' },
+      //     // { text: 'T-Shirt Shop', link: 'https://vue.threadless.com/' }
+      //   ]
+      // },
+      // {
+      //   text: 'Official Libraries',
+      //   items: [
+      //     { text: 'Vue Router', link: 'https://router.vuejs.org/' },
+      //     { text: 'Pinia', link: 'https://pinia.vuejs.org/' },
+      //     { text: 'Tooling Guide', link: '/guide/scaling-up/tooling.html' }
+      //   ]
+      // },
+      // {
+      //   text: 'Video Courses',
+      //   items: [
+      //     {
+      //       text: 'Vue Mastery',
+      //       link: 'https://www.vuemastery.com/courses/'
+      //     },
+      //     {
+      //       text: 'Vue School',
+      //       link: 'https://vueschool.io/?friend=vuejs&utm_source=Vuejs.org&utm_medium=Link&utm_content=Navbar%20Dropdown'
+      //     }
+      //   ]
+      // },
       {
         text: 'Help',
         items: [
-          {
-            text: 'Discord Chat',
-            link: 'https://discord.com/invite/HBherRA'
-          },
+          // {
+          //   text: 'Discord Chat',
+          //   link: 'https://discord.com/invite/HBherRA'
+          // },
           {
             text: 'GitHub Discussions',
-            link: 'https://github.com/vuejs/core/discussions'
+            link: 'https://github.com/daktadeo/multipass/discussions'
           },
-          { text: 'DEV Community', link: 'https://dev.to/t/vue' }
+          // { text: 'DEV Community', link: 'https://dev.to/t/vue' }
         ]
       },
-      {
-        text: 'News',
-        items: [
-          { text: 'Blog', link: 'https://blog.vuejs.org/' },
-          { text: 'Twitter', link: 'https://twitter.com/vuejs' },
-          { text: 'Events', link: 'https://events.vuejs.org/' },
-          { text: 'Newsletters', link: '/ecosystem/newsletters' }
-        ]
-      }
+      // {
+      //   text: 'News',
+      //   items: [
+      //     { text: 'Blog', link: 'https://blog.vuejs.org/' },
+      //     { text: 'Twitter', link: 'https://twitter.com/vuejs' },
+      //     { text: 'Events', link: 'https://events.vuejs.org/' },
+      //     { text: 'Newsletters', link: '/ecosystem/newsletters' }
+      //   ]
+      // },
     ]
   },
   {
@@ -105,20 +93,21 @@ const nav: ThemeConfig['nav'] = [
         link: '/about/community-guide'
       },
       { text: 'Code of Conduct', link: '/about/coc' },
-      {
-        text: 'The Documentary',
-        link: 'https://www.youtube.com/watch?v=OrxmtDw4pVI'
-      }
     ]
-  },
-  {
-    text: 'Sponsor',
-    link: '/sponsor/'
   },
   {
     text: 'Partners',
     link: '/partners/',
     activeMatch: `^/partners/`
+  },
+  {
+    text: 'Legal',
+    items: [
+      { text: 'Sales Terms (dutch)', link: 'https://daktadeo.be/files/DaktaDeo%20Algemene%20leveringsvoorwaarden%20v2018-09.pdf' },
+      { text: 'Privacy Policy', link: 'https://beta.multipass.rocks/privacy-policy' },
+      { text: 'Terms', link: 'https://beta.multipass.rocks/terms-of-service' },
+      { text: 'Open Source', link: '/ecosystem/opensource' }
+    ]
   }
 ]
 
@@ -571,13 +560,6 @@ export default defineConfigWithTheme<ThemeConfig>({
       }
     ],
     [
-      'link',
-      {
-        rel: 'preconnect',
-        href: 'https://sponsors.vuejs.org'
-      }
-    ],
-    [
       'script',
       {},
       fs.readFileSync(
@@ -609,42 +591,42 @@ export default defineConfigWithTheme<ThemeConfig>({
     // Placeholder of the i18n config for @vuejs-translations.
     // i18n,
 
-    localeLinks: [
-      {
-        link: 'https://cn.vuejs.org',
-        text: '简体中文',
-        repo: 'https://github.com/vuejs-translations/docs-zh-cn'
-      },
-      {
-        link: 'https://ja.vuejs.org',
-        text: '日本語',
-        repo: 'https://github.com/vuejs-translations/docs-ja'
-      },
-      {
-        link: 'https://ua.vuejs.org',
-        text: 'Українська',
-        repo: 'https://github.com/vuejs-translations/docs-uk'
-      },
-      {
-        link: '/translations/',
-        text: 'Help Us Translate!',
-        isTranslationsDesc: true
-      }
-    ],
+    // localeLinks: [
+    //   {
+    //     link: 'https://cn.vuejs.org',
+    //     text: '简体中文',
+    //     repo: 'https://github.com/vuejs-translations/docs-zh-cn'
+    //   },
+    //   {
+    //     link: 'https://ja.vuejs.org',
+    //     text: '日本語',
+    //     repo: 'https://github.com/vuejs-translations/docs-ja'
+    //   },
+    //   {
+    //     link: 'https://ua.vuejs.org',
+    //     text: 'Українська',
+    //     repo: 'https://github.com/vuejs-translations/docs-uk'
+    //   },
+    //   {
+    //     link: '/translations/',
+    //     text: 'Help Us Translate!',
+    //     isTranslationsDesc: true
+    //   }
+    // ],
 
-    algolia: {
-      indexName: 'vuejs',
-      appId: 'ML0LEBN7FQ',
-      apiKey: 'f49cbd92a74532cc55cfbffa5e5a7d01',
-      searchParameters: {
-        facetFilters: ['version:v3']
-      }
-    },
+    // algolia: {
+    //   indexName: 'vuejs',
+    //   appId: 'ML0LEBN7FQ',
+    //   apiKey: 'f49cbd92a74532cc55cfbffa5e5a7d01',
+    //   searchParameters: {
+    //     facetFilters: ['version:v3']
+    //   }
+    // },
 
-    carbonAds: {
-      code: 'CEBDT27Y',
-      placement: 'vuejsorg'
-    },
+    // carbonAds: {
+    //   code: 'CEBDT27Y',
+    //   placement: 'vuejsorg'
+    // },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/' },
@@ -653,16 +635,12 @@ export default defineConfigWithTheme<ThemeConfig>({
     ],
 
     editLink: {
-      repo: 'vuejs/docs',
+      repo: 'daktadeo/multipass-docs',
       text: 'Edit this page on GitHub'
     },
 
     footer: {
-      license: {
-        text: 'MIT License',
-        link: 'https://opensource.org/licenses/MIT'
-      },
-      copyright: `Copyright © 2014-${new Date().getFullYear()} Evan You`
+      copyright: `Copyright © 2014-${new Date().getFullYear()} DaktaDeo`
     }
   },
 

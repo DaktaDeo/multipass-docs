@@ -1,10 +1,8 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
 import SiteMap from './SiteMap.vue'
-// import NewsLetter from './NewsLetter.vue'
 import { load, data, base } from './sponsors'
 import SponsorsGroup from './SponsorsGroup.vue'
-import VueMasteryModal from './VueMasteryModal.vue'
 
 onMounted(async () => {
   await load()
@@ -13,15 +11,15 @@ onMounted(async () => {
 
 <template>
   <section id="hero">
-    <div class="text-xl text--mp-grey">
+    <div class="text-xl text--mp-grey dark:text-neutral-400 pl-3 pb-1">
       <span class="text--orange font-bold">Together</span> we'll create...<br/>
     </div>
-    <h1 class="tagline">
-      <span class="accent">Tools</span> <span>to save</span> <span class="text--deo">Time</span>
+    <h1 class="font-sans mt-4 text-5xl tracking-tight font-extrabold dark:text-white sm:mt-2 sm:text-5xl lg:mt-2 xl:text-6xl">
+      <span class="accent">Tools</span> <span class="text-2xl lg:text-4xl">to save</span> <span class="text--deo">Time</span>
     </h1>
-    <span class="text-md text--mp-grey font-light">
+    <div class="text-xs text--mp-grey font-light mt-2">
       Discover, Define, Develop, Deploy, Document, Deliver, Evolve --repeat
-    </span>
+    </div>
     <p class="description">
       With Multipass you can organize your digital administration in one single place. <br/>
     </p>
@@ -67,12 +65,12 @@ onMounted(async () => {
     </div>
   </section>
 
-  <section id="sponsors">
-    <h2>Platinum Sponsors</h2>
-    <SponsorsGroup tier="platinum" placement="landing" />
-    <h2>Gold Sponsors</h2>
-    <SponsorsGroup tier="gold" placement="landing" />
-  </section>
+<!--  <section id="sponsors">-->
+<!--    <h2>Platinum Sponsors</h2>-->
+<!--    <SponsorsGroup tier="platinum" placement="landing" />-->
+<!--    <h2>Gold Sponsors</h2>-->
+<!--    <SponsorsGroup tier="gold" placement="landing" />-->
+<!--  </section>-->
 
   <SiteMap />
   <!-- <NewsLetter /> -->
@@ -98,7 +96,7 @@ section {
 }
 
 html:not(.dark) .accent,
-.dark .tagline {
+.dark .accent {
   background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
   background-clip: text;
   -webkit-background-clip: text;

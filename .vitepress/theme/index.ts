@@ -1,4 +1,3 @@
-import './styles/colors.css'
 import './styles/index.css'
 import './styles/tailwind.postcss'
 
@@ -10,8 +9,8 @@ import {
   preferSFC,
   filterHeadersByPreference
 } from './components/preferences'
-import SponsorsAside from './components/SponsorsAside.vue'
-import VueSchoolLink from './components/VueSchoolLink.vue'
+// import SponsorsAside from './components/SponsorsAside.vue'
+// import VueSchoolLink from './components/VueSchoolLink.vue'
 // import Banner from './components/Banner.vue'
 
 export default Object.assign({}, VPTheme, {
@@ -20,13 +19,13 @@ export default Object.assign({}, VPTheme, {
     return h(VPTheme.Layout, null, {
       // banner: () => h(Banner),
       'sidebar-top': () => h(PreferenceSwitch),
-      'aside-mid': () => h(SponsorsAside)
+      // 'aside-mid': () => h(SponsorsAside)
     })
   },
   enhanceApp({ app }: { app: App }) {
     app.provide('prefer-composition', preferComposition)
     app.provide('prefer-sfc', preferSFC)
     app.provide('filter-headers', filterHeadersByPreference)
-    app.component('VueSchoolLink', VueSchoolLink)
+    // app.component('VueSchoolLink', VueSchoolLink)
   }
 })
