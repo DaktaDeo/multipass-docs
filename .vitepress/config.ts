@@ -17,11 +17,11 @@ const nav: ThemeConfig['nav'] = [
       { text: 'Quick Start', link: '/guide/quick-start' },
     ]
   },
-  {
-    text: 'API',
-    activeMatch: `^/api/`,
-    link: '/api/'
-  },
+  // {
+  //   text: 'API',
+  //   activeMatch: `^/api/`,
+  //   link: '/api/'
+  // },
   {
     text: 'Ecosystem',
     activeMatch: `^/ecosystem/`,
@@ -88,25 +88,25 @@ const nav: ThemeConfig['nav'] = [
       { text: 'FAQ', link: '/about/faq' },
       { text: 'Team', link: '/about/team' },
       { text: 'Releases', link: '/about/releases' },
-      {
-        text: 'Community Guide',
-        link: '/about/community-guide'
-      },
-      { text: 'Code of Conduct', link: '/about/coc' },
+      // {
+      //   text: 'Community Guide',
+      //   link: '/about/community-guide'
+      // },
+      // { text: 'Code of Conduct', link: '/about/coc' },
+      { text: 'Open Source', link: '/about/opensource' },
     ]
   },
-  {
-    text: 'Partners',
-    link: '/partners/',
-    activeMatch: `^/partners/`
-  },
+  // {
+  //   text: 'Partners',
+  //   link: '/partners/',
+  //   activeMatch: `^/partners/`
+  // },
   {
     text: 'Legal',
     items: [
       { text: 'Sales Terms (NL)', link: 'https://daktadeo.be/files/DaktaDeo%20Algemene%20leveringsvoorwaarden%20v2018-09.pdf' },
       { text: 'Privacy Policy', link: 'https://daktadeo.be/privacy' },
       { text: 'Terms (NL)', link: 'https://beta.multipass.rocks/terms-of-service' },
-      { text: 'Open Source', link: '/ecosystem/opensource' }
     ]
   }
 ]
@@ -543,20 +543,21 @@ export default defineConfigWithTheme<ThemeConfig>({
   extends: baseConfig,
 
   lang: 'en-US',
-  title: 'Vue.js',
-  description: 'Vue.js - The Progressive JavaScript Framework',
+  title: 'Multipass',
+  description: 'Multipass - \n' +
+    'Multifunctional App | No installation | Small Organizations & Businesses | Contacts, Tasks, Projects, Products, ...',
   srcDir: 'src',
   srcExclude: ['tutorial/**/description.md'],
 
   head: [
-    ['meta', { name: 'theme-color', content: '#3c8772' }],
-    ['meta', { name: 'twitter:site', content: '@vuejs' }],
-    ['meta', { name: 'twitter:card', content: 'summary' }],
+    ['meta', { name: 'theme-color', content: '#A01829' }],
+    ['meta', { name: 'twitter:site', content: '@daktadeo' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     [
       'meta',
       {
         name: 'twitter:image',
-        content: 'https://vuejs.org/images/logo.png'
+        content: 'https://cdn.multipass.rocks/multipass/card.png'
       }
     ],
     [
@@ -576,13 +577,6 @@ export default defineConfigWithTheme<ThemeConfig>({
         defer: ''
       }
     ],
-    [
-      'script',
-      {
-        src: 'https://vueschool.io/banner.js?affiliate=vuejs&type=top',
-        async: 'true'
-      }
-    ]
   ],
 
   themeConfig: {
@@ -629,9 +623,9 @@ export default defineConfigWithTheme<ThemeConfig>({
     // },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/' },
-      { icon: 'twitter', link: 'https://twitter.com/vuejs' },
-      { icon: 'discord', link: 'https://discord.com/invite/HBherRA' }
+      { icon: 'github', link: 'https://github.com/daktadeo/' },
+      { icon: 'twitter', link: 'https://twitter.com/intent/follow?screen_name=DaktaDeo' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/company/daktadeo' }
     ],
 
     editLink: {
