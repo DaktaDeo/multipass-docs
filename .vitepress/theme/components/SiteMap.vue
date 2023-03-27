@@ -14,9 +14,9 @@ const items = nav
   <section aria-labelledby='footer-sitemap' id='sitemap'>
     <h2 id='footer-sitemap' class='sr-only'>Footer</h2>
     <div class='mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32'>
-      <div class='xl:grid xl:grid-cols-3 xl:gap-8'>
+      <div class='xl:grid xl:grid-cols-3 xl:gap-0'>
         <div class='space-y-8'>
-          <div class='space-y-8 xl:col-span-1'>
+          <div class='space-y-8 xl:col-span-2'>
 
             <div class='h-10 fill-color inline-svg'>
               <a href='https://daktadeo.be'>
@@ -52,18 +52,18 @@ const items = nav
                 </svg>
               </a>
             </div>
-            <p class='text-gray-500 text-base leading-6 mt-2'>
+            <p class='text-neutral-500 text-base leading-6 mt-2'>
               <strong>Together</strong> we'll create..<br /><strong>Clever
               Tools</strong>
               that <strong>Work</strong> for <strong>Humans</strong><br />
               <small>Discover, Define, Develop, Deliver, Evolve –repeat</small>
             </p>
-            <p class='text-gray-500 text-base leading-6 mt-2'>
+            <p class='text-neutral-500 text-base leading-6 mt-2'>
               Multipass is made by <a href='https://daktadeo.be'>DaktaDeo.</a>
             </p>
             <div class='flex space-x-6'>
               <a href='https://www.facebook.com/DaktaDeo.be/'
-                 class='text-gray-400 hover:text-gray-500'>
+                 class='text-neutral-400 hover:text-neutral-500'>
                 <span class='sr-only'>Facebook</span>
                 <svg class='h-6 w-6'
                      fill='currentColor'
@@ -76,7 +76,7 @@ const items = nav
               </a>
 
               <a href='https://www.instagram.com/DaktaDeo.be/'
-                 class='text-gray-400 hover:text-gray-500'>
+                 class='text-neutral-400 hover:text-neutral-500'>
                 <span class='sr-only'>Instagram</span>
                 <svg class='h-6 w-6'
                      fill='currentColor'
@@ -89,7 +89,7 @@ const items = nav
               </a>
 
               <a href='https://twitter.com/intent/follow?screen_name=DaktaDeo'
-                 class='text-gray-400 hover:text-gray-500'>
+                 class='text-neutral-400 hover:text-neutral-500'>
                 <span class='sr-only'>Twitter</span>
                 <svg class='h-6 w-6'
                      fill='currentColor'
@@ -101,7 +101,7 @@ const items = nav
               </a>
 
               <a href='https://github.com/Gompje'
-                 class='text-gray-400 hover:text-gray-500'>
+                 class='text-neutral-400 hover:text-neutral-500'>
                 <span class='sr-only'>GitHub</span>
                 <svg class='h-6 w-6'
                      fill='currentColor'
@@ -114,7 +114,7 @@ const items = nav
               </a>
 
               <a href='https://www.linkedin.com/company/daktadeo'
-                 class='text-gray-400 hover:text-gray-500'>
+                 class='text-neutral-400 hover:text-neutral-500'>
                 <span class='sr-only'>LinkedIn</span>
                 <svg class='h-6 w-6'
                      fill='currentColor'
@@ -128,7 +128,7 @@ const items = nav
             </div>
           </div>
         </div>
-        <div class='mt-16 grid grid-cols-4 gap-1 xl:col-span-2 xl:mt-0'>
+        <div class='mt-16 grid grid-cols-4 gap-0 md:col-span-2 xl:mt-0'>
           <div v-for='col in items'>
             <h3>{{ col.text }}</h3>
             <ul role='list' class='mt-3 space-y-2'>
@@ -148,10 +148,10 @@ const items = nav
   background: var(--vt-c-bg-soft);
 }
 #sitemap h3 {
-  @apply text-gray-900 font-semibold leading-6 text-gray-900 uppercase tracking-wider text-sm dark:text-gray-400 ;
+  @apply text-neutral-700 font-semibold leading-6 uppercase tracking-wider text-sm dark:text-neutral-400 ;
 }
 
 #sitemap .vt-link {
- @apply text-gray-500 hover:text-gray-900 text-sm dark:text-gray-400 dark:hover:text-gray-300;
+ @apply text-neutral-500 hover:text-neutral-900 text-sm dark:text-neutral-400 dark:hover:text-neutral-300;
 }
 </style>

@@ -296,7 +296,7 @@ import SponsorsGroup from './SponsorsGroup.vue'
   <section class=' '>
     <div class='mx-auto max-w-7xl px-6 lg:px-8'>
       <div class='mx-auto max-w-2xl lg:text-center'>
-        <div class='mt-16 flow-root sm:mt-24'>
+        <div class='mt-16 flow-root sm:mt-24 mb-12'>
           <div class='-m-2 rounded-xl lg:-m-4  lg:p-4'>
             <img src='images/human-growing.svg' alt='A human growing'>
           </div>
