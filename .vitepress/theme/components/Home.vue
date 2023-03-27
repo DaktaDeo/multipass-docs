@@ -114,94 +114,233 @@ onMounted(async () => {
         </div>
       </div>
     </div>
-    <div class='mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8'>
-      <dl
-        class='mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16'>
-        <div class='relative pl-9'>
-          <dt class='inline font-semibold text-gray-900'>
-            <svg class='absolute top-1 left-1 h-5 w-5 text-indigo-600' viewBox='0 0 20 20' fill='currentColor'
-                 aria-hidden='true'>
-              <path fill-rule='evenodd'
-                    d='M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z'
-                    clip-rule='evenodd' />
-            </svg>
-            Push to deploy.
-          </dt>
-          <dd class='inline'>Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.</dd>
-        </div>
 
-        <div class='relative pl-9'>
-          <dt class='inline font-semibold text-gray-900'>
-            <svg class='absolute top-1 left-1 h-5 w-5 text-indigo-600' viewBox='0 0 20 20' fill='currentColor'
-                 aria-hidden='true'>
-              <path fill-rule='evenodd'
-                    d='M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z'
-                    clip-rule='evenodd' />
-            </svg>
-            SSL certificates.
-          </dt>
-          <dd class='inline'>Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
-          </dd>
-        </div>
+    <div class='mx-auto max-w-7xl px-6 lg:px-8'>
+      <div class='mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none'>
+        <dl class='grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3'>
+          <div class='flex flex-col'>
+            <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900'>
+              <svg
+                class='h-5 w-5 flex-none text-indigo-600'
+                fill='currentColor'
+                aria-hidden='true'
+                xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 512'>
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d='M274.7 304H173.3C77.61 304 0 381.6 0 477.3C0 496.5 15.52 512 34.66 512H413.3C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304zM413.3 480H34.66C33.2 480 32 478.8 32 477.3C32 399.4 95.4 336 173.3 336H274.7C352.6 336 416 399.4 416 477.3C416 478.8 414.8 480 413.3 480zM375.1 241C392.9 250.8 412.3 256 432 256C493.8 256 544 205.8 544 144S493.8 32 432 32c-12.83 0-25.39 2.156-37.34 6.391c-8.328 2.953-12.69 12.09-9.734 20.42c2.953 8.344 12.12 12.66 20.42 9.734C413.9 65.53 422.8 64 432 64C476.1 64 512 99.89 512 144S476.1 224 432 224c-14.08 0-27.91-3.703-39.98-10.69c-7.656-4.453-17.44-1.828-21.86 5.828C365.7 226.8 368.3 236.6 375.1 241zM490.7 320H448c-8.844 0-16 7.156-16 16S439.2 352 448 352h42.67C555.4 352 608 404.6 608 469.3C608 475.2 603.2 480 597.3 480H496c-8.844 0-16 7.156-16 16s7.156 16 16 16h101.3C620.9 512 640 492.9 640 469.3C640 386.1 573 320 490.7 320zM224 272c70.59 0 128-57.42 128-128V24c0-11.89-12.52-19.63-23.16-14.31L288 30.11L231.2 1.689c-4.506-2.254-9.807-2.254-14.31 0L160 30.11L119.2 9.689C108.5 4.369 96 12.11 96 24V144C96 214.6 153.4 272 224 272zM128 49.86l32 16l64-32l64 32l32-16V112H128V49.86zM320 144c0 52.94-43.06 96-96 96s-96-43.06-96-96H320z' />
+              </svg>
+              Structured data
+            </dt>
+            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600'>
+              <p class='flex-auto'>
+                Say Goodbye to spreadsheets, say <i>Hello!</i> to a robust normalized structure in which you can easily enter and view relationships for companies,
+                organizations and individuals.
+              </p>
+              <!--              <p class="mt-6">-->
+              <!--                <a href="#" class="text-sm font-semibold leading-6 text-indigo-600">Learn more <span aria-hidden="true">→</span></a>-->
+              <!--              </p>-->
+            </dd>
+          </div>
 
-        <div class='relative pl-9'>
-          <dt class='inline font-semibold text-gray-900'>
-            <svg class='absolute top-1 left-1 h-5 w-5 text-indigo-600' viewBox='0 0 20 20' fill='currentColor'
-                 aria-hidden='true'>
-              <path fill-rule='evenodd'
-                    d='M15.312 11.424a5.5 5.5 0 01-9.201 2.466l-.312-.311h2.433a.75.75 0 000-1.5H3.989a.75.75 0 00-.75.75v4.242a.75.75 0 001.5 0v-2.43l.31.31a7 7 0 0011.712-3.138.75.75 0 00-1.449-.39zm1.23-3.723a.75.75 0 00.219-.53V2.929a.75.75 0 00-1.5 0V5.36l-.31-.31A7 7 0 003.239 8.188a.75.75 0 101.448.389A5.5 5.5 0 0113.89 6.11l.311.31h-2.432a.75.75 0 000 1.5h4.243a.75.75 0 00.53-.219z'
-                    clip-rule='evenodd' />
-            </svg>
-            Simple queues.
-          </dt>
-          <dd class='inline'>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.</dd>
-        </div>
+          <div class='flex flex-col'>
+            <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900'>
+              <svg
+                class='h-5 w-5 flex-none text-indigo-600'
+                fill='currentColor'
+                aria-hidden='true'
+                xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 512'>
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d='M274.7 304H173.3C77.61 304 0 381.6 0 477.3C0 496.5 15.52 512 34.66 512H413.3C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304zM413.3 480H34.66C33.2 480 32 478.8 32 477.3C32 399.4 95.4 336 173.3 336H274.7C352.6 336 416 399.4 416 477.3C416 478.8 414.8 480 413.3 480zM375.1 241C392.9 250.8 412.3 256 432 256C493.8 256 544 205.8 544 144S493.8 32 432 32c-12.83 0-25.39 2.156-37.34 6.391c-8.328 2.953-12.69 12.09-9.734 20.42c2.953 8.344 12.12 12.66 20.42 9.734C413.9 65.53 422.8 64 432 64C476.1 64 512 99.89 512 144S476.1 224 432 224c-14.08 0-27.91-3.703-39.98-10.69c-7.656-4.453-17.44-1.828-21.86 5.828C365.7 226.8 368.3 236.6 375.1 241zM490.7 320H448c-8.844 0-16 7.156-16 16S439.2 352 448 352h42.67C555.4 352 608 404.6 608 469.3C608 475.2 603.2 480 597.3 480H496c-8.844 0-16 7.156-16 16s7.156 16 16 16h101.3C620.9 512 640 492.9 640 469.3C640 386.1 573 320 490.7 320zM224 272c70.59 0 128-57.42 128-128V24c0-11.89-12.52-19.63-23.16-14.31L288 30.11L231.2 1.689c-4.506-2.254-9.807-2.254-14.31 0L160 30.11L119.2 9.689C108.5 4.369 96 12.11 96 24V144C96 214.6 153.4 272 224 272zM128 49.86l32 16l64-32l64 32l32-16V112H128V49.86zM320 144c0 52.94-43.06 96-96 96s-96-43.06-96-96H320z' />
+              </svg>
+              We are all Humans :)
+            </dt>
+            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600'>
+              <p class='flex-auto'>
+                With our 'Humans' concept, you can virtually monitor the work of others in your team who are not users in Multipass.
+              </p>
+              <!--              <p class="mt-6">-->
+              <!--                <a href="#" class="text-sm font-semibold leading-6 text-indigo-600">Learn more <span aria-hidden="true">→</span></a>-->
+              <!--              </p>-->
+            </dd>
+          </div>
 
-        <div class='relative pl-9'>
-          <dt class='inline font-semibold text-gray-900'>
-            <svg class='absolute top-1 left-1 h-5 w-5 text-indigo-600' viewBox='0 0 20 20' fill='currentColor'
-                 aria-hidden='true'>
-              <path fill-rule='evenodd'
-                    d='M10 2.5c-1.31 0-2.526.386-3.546 1.051a.75.75 0 01-.82-1.256A8 8 0 0118 9a22.47 22.47 0 01-1.228 7.351.75.75 0 11-1.417-.49A20.97 20.97 0 0016.5 9 6.5 6.5 0 0010 2.5zM4.333 4.416a.75.75 0 01.218 1.038A6.466 6.466 0 003.5 9a7.966 7.966 0 01-1.293 4.362.75.75 0 01-1.257-.819A6.466 6.466 0 002 9c0-1.61.476-3.11 1.295-4.365a.75.75 0 011.038-.219zM10 6.12a3 3 0 00-3.001 3.041 11.455 11.455 0 01-2.697 7.24.75.75 0 01-1.148-.965A9.957 9.957 0 005.5 9c0-.028.002-.055.004-.082a4.5 4.5 0 018.996.084V9.15l-.005.297a.75.75 0 11-1.5-.034c.003-.11.004-.219.005-.328a3 3 0 00-3-2.965zm0 2.13a.75.75 0 01.75.75c0 3.51-1.187 6.745-3.181 9.323a.75.75 0 11-1.186-.918A13.687 13.687 0 009.25 9a.75.75 0 01.75-.75zm3.529 3.698a.75.75 0 01.584.885 18.883 18.883 0 01-2.257 5.84.75.75 0 11-1.29-.764 17.386 17.386 0 002.078-5.377.75.75 0 01.885-.584z'
-                    clip-rule='evenodd' />
-            </svg>
-            Advanced security.
-          </dt>
-          <dd class='inline'>Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.</dd>
-        </div>
+          <div class='flex flex-col'>
+            <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900'>
+              <svg
+                class='h-5 w-5 flex-none text-indigo-600'
+                fill='currentColor'
+                aria-hidden='true'
+                xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 512'>
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d='M274.7 304H173.3C77.61 304 0 381.6 0 477.3C0 496.5 15.52 512 34.66 512H413.3C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304zM413.3 480H34.66C33.2 480 32 478.8 32 477.3C32 399.4 95.4 336 173.3 336H274.7C352.6 336 416 399.4 416 477.3C416 478.8 414.8 480 413.3 480zM375.1 241C392.9 250.8 412.3 256 432 256C493.8 256 544 205.8 544 144S493.8 32 432 32c-12.83 0-25.39 2.156-37.34 6.391c-8.328 2.953-12.69 12.09-9.734 20.42c2.953 8.344 12.12 12.66 20.42 9.734C413.9 65.53 422.8 64 432 64C476.1 64 512 99.89 512 144S476.1 224 432 224c-14.08 0-27.91-3.703-39.98-10.69c-7.656-4.453-17.44-1.828-21.86 5.828C365.7 226.8 368.3 236.6 375.1 241zM490.7 320H448c-8.844 0-16 7.156-16 16S439.2 352 448 352h42.67C555.4 352 608 404.6 608 469.3C608 475.2 603.2 480 597.3 480H496c-8.844 0-16 7.156-16 16s7.156 16 16 16h101.3C620.9 512 640 492.9 640 469.3C640 386.1 573 320 490.7 320zM224 272c70.59 0 128-57.42 128-128V24c0-11.89-12.52-19.63-23.16-14.31L288 30.11L231.2 1.689c-4.506-2.254-9.807-2.254-14.31 0L160 30.11L119.2 9.689C108.5 4.369 96 12.11 96 24V144C96 214.6 153.4 272 224 272zM128 49.86l32 16l64-32l64 32l32-16V112H128V49.86zM320 144c0 52.94-43.06 96-96 96s-96-43.06-96-96H320z' />
+              </svg>
+              Everyone is unique
+            </dt>
+            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600'>
+              <p class='flex-auto'>
+                Not everyone likes text. Some people prefer colors, or even emojis. Multipass allows you to do just that. Sensibly. Or not.
+              </p>
+              <!--              <p class="mt-6">-->
+              <!--                <a href="#" class="text-sm font-semibold leading-6 text-indigo-600">Learn more <span aria-hidden="true">→</span></a>-->
+              <!--              </p>-->
+            </dd>
+          </div>
 
-        <div class='relative pl-9'>
-          <dt class='inline font-semibold text-gray-900'>
-            <svg class='absolute top-1 left-1 h-5 w-5 text-indigo-600' viewBox='0 0 20 20' fill='currentColor'
-                 aria-hidden='true'>
-              <path fill-rule='evenodd'
-                    d='M7.84 1.804A1 1 0 018.82 1h2.36a1 1 0 01.98.804l.331 1.652a6.993 6.993 0 011.929 1.115l1.598-.54a1 1 0 011.186.447l1.18 2.044a1 1 0 01-.205 1.251l-1.267 1.113a7.047 7.047 0 010 2.228l1.267 1.113a1 1 0 01.206 1.25l-1.18 2.045a1 1 0 01-1.187.447l-1.598-.54a6.993 6.993 0 01-1.929 1.115l-.33 1.652a1 1 0 01-.98.804H8.82a1 1 0 01-.98-.804l-.331-1.652a6.993 6.993 0 01-1.929-1.115l-1.598.54a1 1 0 01-1.186-.447l-1.18-2.044a1 1 0 01.205-1.251l1.267-1.114a7.05 7.05 0 010-2.227L1.821 7.773a1 1 0 01-.206-1.25l1.18-2.045a1 1 0 011.187-.447l1.598.54A6.993 6.993 0 017.51 3.456l.33-1.652zM10 13a3 3 0 100-6 3 3 0 000 6z'
-                    clip-rule='evenodd' />
-            </svg>
-            Powerful API in the making.
-          </dt>
-          <dd class='inline'>At this time our public API is limited. However we are currently slowly opening up more of
-            our internally used routes.
-          </dd>
-        </div>
+          <div class='flex flex-col'>
+            <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900'>
+              <svg
+                class='h-5 w-5 flex-none text-indigo-600'
+                fill='currentColor'
+                aria-hidden='true'
+                xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 512'>
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d='M274.7 304H173.3C77.61 304 0 381.6 0 477.3C0 496.5 15.52 512 34.66 512H413.3C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304zM413.3 480H34.66C33.2 480 32 478.8 32 477.3C32 399.4 95.4 336 173.3 336H274.7C352.6 336 416 399.4 416 477.3C416 478.8 414.8 480 413.3 480zM375.1 241C392.9 250.8 412.3 256 432 256C493.8 256 544 205.8 544 144S493.8 32 432 32c-12.83 0-25.39 2.156-37.34 6.391c-8.328 2.953-12.69 12.09-9.734 20.42c2.953 8.344 12.12 12.66 20.42 9.734C413.9 65.53 422.8 64 432 64C476.1 64 512 99.89 512 144S476.1 224 432 224c-14.08 0-27.91-3.703-39.98-10.69c-7.656-4.453-17.44-1.828-21.86 5.828C365.7 226.8 368.3 236.6 375.1 241zM490.7 320H448c-8.844 0-16 7.156-16 16S439.2 352 448 352h42.67C555.4 352 608 404.6 608 469.3C608 475.2 603.2 480 597.3 480H496c-8.844 0-16 7.156-16 16s7.156 16 16 16h101.3C620.9 512 640 492.9 640 469.3C640 386.1 573 320 490.7 320zM224 272c70.59 0 128-57.42 128-128V24c0-11.89-12.52-19.63-23.16-14.31L288 30.11L231.2 1.689c-4.506-2.254-9.807-2.254-14.31 0L160 30.11L119.2 9.689C108.5 4.369 96 12.11 96 24V144C96 214.6 153.4 272 224 272zM128 49.86l32 16l64-32l64 32l32-16V112H128V49.86zM320 144c0 52.94-43.06 96-96 96s-96-43.06-96-96H320z' />
+              </svg>
+              For Makers, By Makers
+            </dt>
+            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600'>
+              <p class='flex-auto mt-2'>
+                Easily create Products, Make Assemblies, re-use them, make different Assemblies with the same products, create Variants, and more.
+              </p>
+              <!--              <p class="mt-6">-->
+              <!--                <a href="#" class="text-sm font-semibold leading-6 text-indigo-600">Learn more <span aria-hidden="true">→</span></a>-->
+              <!--              </p>-->
+            </dd>
+          </div>
 
-        <div class='relative pl-9'>
-          <dt class='inline font-semibold text-gray-900'>
-            <svg class='absolute top-1 left-1 h-5 w-5 text-indigo-600' viewBox='0 0 20 20' fill='currentColor'
-                 aria-hidden='true'>
-              <path
-                d='M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z' />
-              <path fill-rule='evenodd'
-                    d='M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z'
-                    clip-rule='evenodd' />
-            </svg>
-            Database backups.
-          </dt>
-          <dd class='inline'>Every night we make a backup of all data to S3.</dd>
-        </div>
-      </dl>
+          <div class='flex flex-col'>
+            <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900'>
+              <svg
+                class='h-5 w-5 flex-none text-indigo-600'
+                fill='currentColor'
+                aria-hidden='true'
+                xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 512'>
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d='M274.7 304H173.3C77.61 304 0 381.6 0 477.3C0 496.5 15.52 512 34.66 512H413.3C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304zM413.3 480H34.66C33.2 480 32 478.8 32 477.3C32 399.4 95.4 336 173.3 336H274.7C352.6 336 416 399.4 416 477.3C416 478.8 414.8 480 413.3 480zM375.1 241C392.9 250.8 412.3 256 432 256C493.8 256 544 205.8 544 144S493.8 32 432 32c-12.83 0-25.39 2.156-37.34 6.391c-8.328 2.953-12.69 12.09-9.734 20.42c2.953 8.344 12.12 12.66 20.42 9.734C413.9 65.53 422.8 64 432 64C476.1 64 512 99.89 512 144S476.1 224 432 224c-14.08 0-27.91-3.703-39.98-10.69c-7.656-4.453-17.44-1.828-21.86 5.828C365.7 226.8 368.3 236.6 375.1 241zM490.7 320H448c-8.844 0-16 7.156-16 16S439.2 352 448 352h42.67C555.4 352 608 404.6 608 469.3C608 475.2 603.2 480 597.3 480H496c-8.844 0-16 7.156-16 16s7.156 16 16 16h101.3C620.9 512 640 492.9 640 469.3C640 386.1 573 320 490.7 320zM224 272c70.59 0 128-57.42 128-128V24c0-11.89-12.52-19.63-23.16-14.31L288 30.11L231.2 1.689c-4.506-2.254-9.807-2.254-14.31 0L160 30.11L119.2 9.689C108.5 4.369 96 12.11 96 24V144C96 214.6 153.4 272 224 272zM128 49.86l32 16l64-32l64 32l32-16V112H128V49.86zM320 144c0 52.94-43.06 96-96 96s-96-43.06-96-96H320z' />
+              </svg>
+              Sell Your stuff
+            </dt>
+            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600'>
+              <p class='flex-auto mt-2'>
+                Yes, we have a Cost Price Calculator for your clients too. A complete webshop is coming soon.
+              </p>
+            </dd>
+          </div>
+
+
+
+          <div class='flex flex-col'>
+            <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900'>
+              <svg
+                class='h-5 w-5 flex-none text-indigo-600'
+                fill='currentColor'
+                aria-hidden='true'
+                xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 512'>
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d='M274.7 304H173.3C77.61 304 0 381.6 0 477.3C0 496.5 15.52 512 34.66 512H413.3C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304zM413.3 480H34.66C33.2 480 32 478.8 32 477.3C32 399.4 95.4 336 173.3 336H274.7C352.6 336 416 399.4 416 477.3C416 478.8 414.8 480 413.3 480zM375.1 241C392.9 250.8 412.3 256 432 256C493.8 256 544 205.8 544 144S493.8 32 432 32c-12.83 0-25.39 2.156-37.34 6.391c-8.328 2.953-12.69 12.09-9.734 20.42c2.953 8.344 12.12 12.66 20.42 9.734C413.9 65.53 422.8 64 432 64C476.1 64 512 99.89 512 144S476.1 224 432 224c-14.08 0-27.91-3.703-39.98-10.69c-7.656-4.453-17.44-1.828-21.86 5.828C365.7 226.8 368.3 236.6 375.1 241zM490.7 320H448c-8.844 0-16 7.156-16 16S439.2 352 448 352h42.67C555.4 352 608 404.6 608 469.3C608 475.2 603.2 480 597.3 480H496c-8.844 0-16 7.156-16 16s7.156 16 16 16h101.3C620.9 512 640 492.9 640 469.3C640 386.1 573 320 490.7 320zM224 272c70.59 0 128-57.42 128-128V24c0-11.89-12.52-19.63-23.16-14.31L288 30.11L231.2 1.689c-4.506-2.254-9.807-2.254-14.31 0L160 30.11L119.2 9.689C108.5 4.369 96 12.11 96 24V144C96 214.6 153.4 272 224 272zM128 49.86l32 16l64-32l64 32l32-16V112H128V49.86zM320 144c0 52.94-43.06 96-96 96s-96-43.06-96-96H320z' />
+              </svg>
+              Multipass: a diverse Passionate Team
+            </dt>
+            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600'>
+              <p class='flex-auto'>
+                We are a mixed team of makers, wizards, hackers, and tinkerers. We got your Back.
+              </p>
+            </dd>
+          </div>
+
+        </dl>
+      </div>
     </div>
   </section>
+
+  <section class=' py-24 sm:py-32'>
+    <div class='mx-auto max-w-7xl px-6 lg:px-8'>
+      <div class='mx-auto max-w-2xl lg:text-center'>
+        <h2 class='text-base font-semibold leading-7 text-indigo-600'>Features</h2>
+        <p class='mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>A list of growing Goodies</p>
+        <p class='mt-6 text-lg leading-8 text-gray-600'>
+          Multipass is a growing project. We are adding new features and goodies all the time. Here is a list of the
+          current features:
+        </p>
+      </div>
+      <div class='mx-auto mt-8 max-w-2xl sm:mt-12 lg:mt-16 lg:max-w-none'>
+        <dl class='grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3'>
+          <div class='flex flex-col'>
+            <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900'>
+              <svg
+                class='h-5 w-5 flex-none text-indigo-600'
+                fill='currentColor'
+                aria-hidden='true'
+                xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 512'>
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d='M274.7 304H173.3C77.61 304 0 381.6 0 477.3C0 496.5 15.52 512 34.66 512H413.3C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304zM413.3 480H34.66C33.2 480 32 478.8 32 477.3C32 399.4 95.4 336 173.3 336H274.7C352.6 336 416 399.4 416 477.3C416 478.8 414.8 480 413.3 480zM375.1 241C392.9 250.8 412.3 256 432 256C493.8 256 544 205.8 544 144S493.8 32 432 32c-12.83 0-25.39 2.156-37.34 6.391c-8.328 2.953-12.69 12.09-9.734 20.42c2.953 8.344 12.12 12.66 20.42 9.734C413.9 65.53 422.8 64 432 64C476.1 64 512 99.89 512 144S476.1 224 432 224c-14.08 0-27.91-3.703-39.98-10.69c-7.656-4.453-17.44-1.828-21.86 5.828C365.7 226.8 368.3 236.6 375.1 241zM490.7 320H448c-8.844 0-16 7.156-16 16S439.2 352 448 352h42.67C555.4 352 608 404.6 608 469.3C608 475.2 603.2 480 597.3 480H496c-8.844 0-16 7.156-16 16s7.156 16 16 16h101.3C620.9 512 640 492.9 640 469.3C640 386.1 573 320 490.7 320zM224 272c70.59 0 128-57.42 128-128V24c0-11.89-12.52-19.63-23.16-14.31L288 30.11L231.2 1.689c-4.506-2.254-9.807-2.254-14.31 0L160 30.11L119.2 9.689C108.5 4.369 96 12.11 96 24V144C96 214.6 153.4 272 224 272zM128 49.86l32 16l64-32l64 32l32-16V112H128V49.86zM320 144c0 52.94-43.06 96-96 96s-96-43.06-96-96H320z' />
+              </svg>
+              App: Contacts
+            </dt>
+            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600'>
+              <p class='flex-auto'>
+                A robust normalized structure in which you can easily enter and view relationships for companies,
+                organizations and individuals.
+              </p>
+              <!--              <p class="mt-6">-->
+              <!--                <a href="#" class="text-sm font-semibold leading-6 text-indigo-600">Learn more <span aria-hidden="true">→</span></a>-->
+              <!--              </p>-->
+            </dd>
+          </div>
+
+          <div class='flex flex-col'>
+            <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900'>
+              <svg
+                class='h-5 w-5 flex-none text-indigo-600'
+                fill='currentColor'
+                aria-hidden='true'
+                xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 512'>
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d='M274.7 304H173.3C77.61 304 0 381.6 0 477.3C0 496.5 15.52 512 34.66 512H413.3C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304zM413.3 480H34.66C33.2 480 32 478.8 32 477.3C32 399.4 95.4 336 173.3 336H274.7C352.6 336 416 399.4 416 477.3C416 478.8 414.8 480 413.3 480zM375.1 241C392.9 250.8 412.3 256 432 256C493.8 256 544 205.8 544 144S493.8 32 432 32c-12.83 0-25.39 2.156-37.34 6.391c-8.328 2.953-12.69 12.09-9.734 20.42c2.953 8.344 12.12 12.66 20.42 9.734C413.9 65.53 422.8 64 432 64C476.1 64 512 99.89 512 144S476.1 224 432 224c-14.08 0-27.91-3.703-39.98-10.69c-7.656-4.453-17.44-1.828-21.86 5.828C365.7 226.8 368.3 236.6 375.1 241zM490.7 320H448c-8.844 0-16 7.156-16 16S439.2 352 448 352h42.67C555.4 352 608 404.6 608 469.3C608 475.2 603.2 480 597.3 480H496c-8.844 0-16 7.156-16 16s7.156 16 16 16h101.3C620.9 512 640 492.9 640 469.3C640 386.1 573 320 490.7 320zM224 272c70.59 0 128-57.42 128-128V24c0-11.89-12.52-19.63-23.16-14.31L288 30.11L231.2 1.689c-4.506-2.254-9.807-2.254-14.31 0L160 30.11L119.2 9.689C108.5 4.369 96 12.11 96 24V144C96 214.6 153.4 272 224 272zM128 49.86l32 16l64-32l64 32l32-16V112H128V49.86zM320 144c0 52.94-43.06 96-96 96s-96-43.06-96-96H320z' />
+              </svg>
+              Taxonomy: Labels
+            </dt>
+            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600'>
+              <p class='flex-auto'>
+                Labels, tags or labels, ... short words that ensure the identification of the disorganized data. The
+                same Labels can be used on different types of data inside Multipass.
+              </p>
+            </dd>
+          </div>
+
+          <div class='flex flex-col'>
+            <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900'>
+              <svg
+                class='h-5 w-5 flex-none text-indigo-600'
+                fill='currentColor'
+                aria-hidden='true'
+                xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 512'>
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d='M274.7 304H173.3C77.61 304 0 381.6 0 477.3C0 496.5 15.52 512 34.66 512H413.3C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304zM413.3 480H34.66C33.2 480 32 478.8 32 477.3C32 399.4 95.4 336 173.3 336H274.7C352.6 336 416 399.4 416 477.3C416 478.8 414.8 480 413.3 480zM375.1 241C392.9 250.8 412.3 256 432 256C493.8 256 544 205.8 544 144S493.8 32 432 32c-12.83 0-25.39 2.156-37.34 6.391c-8.328 2.953-12.69 12.09-9.734 20.42c2.953 8.344 12.12 12.66 20.42 9.734C413.9 65.53 422.8 64 432 64C476.1 64 512 99.89 512 144S476.1 224 432 224c-14.08 0-27.91-3.703-39.98-10.69c-7.656-4.453-17.44-1.828-21.86 5.828C365.7 226.8 368.3 236.6 375.1 241zM490.7 320H448c-8.844 0-16 7.156-16 16S439.2 352 448 352h42.67C555.4 352 608 404.6 608 469.3C608 475.2 603.2 480 597.3 480H496c-8.844 0-16 7.156-16 16s7.156 16 16 16h101.3C620.9 512 640 492.9 640 469.3C640 386.1 573 320 490.7 320zM224 272c70.59 0 128-57.42 128-128V24c0-11.89-12.52-19.63-23.16-14.31L288 30.11L231.2 1.689c-4.506-2.254-9.807-2.254-14.31 0L160 30.11L119.2 9.689C108.5 4.369 96 12.11 96 24V144C96 214.6 153.4 272 224 272zM128 49.86l32 16l64-32l64 32l32-16V112H128V49.86zM320 144c0 52.94-43.06 96-96 96s-96-43.06-96-96H320z' />
+              </svg>
+              Taxonomy: Types
+            </dt>
+            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600'>
+              <p class='flex-auto'>
+                With Types, you can group your data into categories. For example, you can create a type "Author" and
+                then create a Contact with the name "Terry Pratchett".
+              </p>
+            </dd>
+          </div>
+
+        </dl>
+      </div>
+    </div>
+  </section>
+
 
   <section class='py-24 sm:py-32 sm:mt-20 md:mt-24 mt-16'>
     <div class='mx-auto max-w-7xl px-6 lg:px-8'>
@@ -214,60 +353,128 @@ onMounted(async () => {
       <dl
         class='mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16'>
 
-        <div class='relative pl-9'>
-          <dt class='inline font-semibold text-gray-900'>
+        <div class='flex flex-col'>
+          <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900'>
             <svg
-              class='absolute top-1 left-1 h-5 w-5 text-indigo-600'
+              class='h-5 w-5 flex-none text-indigo-600'
               fill='currentColor'
               aria-hidden='true'
-              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M368 176A144 144 0 1 0 80 176a144 144 0 1 0 288 0zM48 176a176 176 0 1 1 352 0A176 176 0 1 1 48 176zM16 112c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V128c0-8.8 7.2-16 16-16zm432 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V128c0-8.8 7.2-16 16-16s16 7.2 16 16zM0 482.3c0-64.2 33.9-120.4 84.7-151.8c8.6 7.8 17.9 14.8 27.7 21.1C65.4 375.4 32.9 423.8 32 480H96V448c0-26.5 21.5-48 48-48H304c26.5 0 48 21.5 48 48v32h64c-.9-56.2-33.4-104.6-80.5-128.4c9.8-6.3 19.1-13.3 27.7-21.1c50.8 31.4 84.7 87.6 84.7 151.8c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM288 480h32V448c0-8.8-7.2-16-16-16H144c-8.8 0-16 7.2-16 16v32h32V464c0-8.8 7.2-16 16-16s16 7.2 16 16v16h64V464c0-8.8 7.2-16 16-16s16 7.2 16 16v16zM205.3 162.7l21.2 6c3.3 .9 5.5 3.9 5.5 7.3s-2.2 6.4-5.5 7.3l-21.2 6-6 21.2c-.9 3.3-3.9 5.5-7.3 5.5s-6.4-2.2-7.3-5.5l-6-21.2-21.2-6c-3.3-.9-5.5-3.9-5.5-7.3s2.2-6.4 5.5-7.3l21.2-6 6-21.2c.9-3.3 3.9-5.5 7.3-5.5s6.4 2.2 7.3 5.5l6 21.2zM160 128c-17.7 0-32 14.3-32 32v16c0 44.2 35.8 80 80 80h32c44.2 0 80-35.8 80-80V160c0-17.7-14.3-32-32-32H160zM96 160c0-35.3 28.7-64 64-64H288c35.3 0 64 28.7 64 64v16c0 61.9-50.1 112-112 112H208c-61.9 0-112-50.1-112-112V160z"/></svg>
-           User Focussed Development.
-          </dt>
-          <dd class='inline'>We are working with a closed group of people. This allows us to focus on the right things. We call them the Experts.
-          </dd>
-        </div>
-
-        <div class='relative pl-9'>
-          <dt class='inline font-semibold text-gray-900'>
-            <svg class='absolute top-1 left-1 h-5 w-5 text-indigo-600' viewBox='0 0 20 20' fill='currentColor'
-                 aria-hidden='true'>
-              <path fill-rule='evenodd'
-                    d='M10 2.5c-1.31 0-2.526.386-3.546 1.051a.75.75 0 01-.82-1.256A8 8 0 0118 9a22.47 22.47 0 01-1.228 7.351.75.75 0 11-1.417-.49A20.97 20.97 0 0016.5 9 6.5 6.5 0 0010 2.5zM4.333 4.416a.75.75 0 01.218 1.038A6.466 6.466 0 003.5 9a7.966 7.966 0 01-1.293 4.362.75.75 0 01-1.257-.819A6.466 6.466 0 002 9c0-1.61.476-3.11 1.295-4.365a.75.75 0 011.038-.219zM10 6.12a3 3 0 00-3.001 3.041 11.455 11.455 0 01-2.697 7.24.75.75 0 01-1.148-.965A9.957 9.957 0 005.5 9c0-.028.002-.055.004-.082a4.5 4.5 0 018.996.084V9.15l-.005.297a.75.75 0 11-1.5-.034c.003-.11.004-.219.005-.328a3 3 0 00-3-2.965zm0 2.13a.75.75 0 01.75.75c0 3.51-1.187 6.745-3.181 9.323a.75.75 0 11-1.186-.918A13.687 13.687 0 009.25 9a.75.75 0 01.75-.75zm3.529 3.698a.75.75 0 01.584.885 18.883 18.883 0 01-2.257 5.84.75.75 0 11-1.29-.764 17.386 17.386 0 002.078-5.377.75.75 0 01.885-.584z'
-                    clip-rule='evenodd' />
-            </svg>
-            Advanced security.
-          </dt>
-          <dd class='inline'>Each Team has his own seperate database + S3 space out of the box. Currently we also support 2FA and session management.</dd>
-        </div>
-
-        <div class='relative pl-9'>
-          <dt class='inline font-semibold text-gray-900'>
-            <svg class='absolute top-1 left-1 h-5 w-5 text-indigo-600' viewBox='0 0 20 20' fill='currentColor'
-                 aria-hidden='true'>
-              <path fill-rule='evenodd'
-                    d='M7.84 1.804A1 1 0 018.82 1h2.36a1 1 0 01.98.804l.331 1.652a6.993 6.993 0 011.929 1.115l1.598-.54a1 1 0 011.186.447l1.18 2.044a1 1 0 01-.205 1.251l-1.267 1.113a7.047 7.047 0 010 2.228l1.267 1.113a1 1 0 01.206 1.25l-1.18 2.045a1 1 0 01-1.187.447l-1.598-.54a6.993 6.993 0 01-1.929 1.115l-.33 1.652a1 1 0 01-.98.804H8.82a1 1 0 01-.98-.804l-.331-1.652a6.993 6.993 0 01-1.929-1.115l-1.598.54a1 1 0 01-1.186-.447l-1.18-2.044a1 1 0 01.205-1.251l1.267-1.114a7.05 7.05 0 010-2.227L1.821 7.773a1 1 0 01-.206-1.25l1.18-2.045a1 1 0 011.187-.447l1.598.54A6.993 6.993 0 017.51 3.456l.33-1.652zM10 13a3 3 0 100-6 3 3 0 000 6z'
-                    clip-rule='evenodd' />
-            </svg>
-            Powerful API in the making.
-          </dt>
-          <dd class='inline'>At this time our public API is limited. However we are currently slowly opening up more of
-            our internally used routes.
-          </dd>
-        </div>
-
-        <div class='relative pl-9'>
-          <dt class='inline font-semibold text-gray-900'>
-            <svg class='absolute top-1 left-1 h-5 w-5 text-indigo-600' viewBox='0 0 20 20' fill='currentColor'
-                 aria-hidden='true'>
+              xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'>
+              <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
               <path
-                d='M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z' />
-              <path fill-rule='evenodd'
-                    d='M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z'
-                    clip-rule='evenodd' />
+                d='M368 176A144 144 0 1 0 80 176a144 144 0 1 0 288 0zM48 176a176 176 0 1 1 352 0A176 176 0 1 1 48 176zM16 112c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V128c0-8.8 7.2-16 16-16zm432 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V128c0-8.8 7.2-16 16-16s16 7.2 16 16zM0 482.3c0-64.2 33.9-120.4 84.7-151.8c8.6 7.8 17.9 14.8 27.7 21.1C65.4 375.4 32.9 423.8 32 480H96V448c0-26.5 21.5-48 48-48H304c26.5 0 48 21.5 48 48v32h64c-.9-56.2-33.4-104.6-80.5-128.4c9.8-6.3 19.1-13.3 27.7-21.1c50.8 31.4 84.7 87.6 84.7 151.8c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM288 480h32V448c0-8.8-7.2-16-16-16H144c-8.8 0-16 7.2-16 16v32h32V464c0-8.8 7.2-16 16-16s16 7.2 16 16v16h64V464c0-8.8 7.2-16 16-16s16 7.2 16 16v16zM205.3 162.7l21.2 6c3.3 .9 5.5 3.9 5.5 7.3s-2.2 6.4-5.5 7.3l-21.2 6-6 21.2c-.9 3.3-3.9 5.5-7.3 5.5s-6.4-2.2-7.3-5.5l-6-21.2-21.2-6c-3.3-.9-5.5-3.9-5.5-7.3s2.2-6.4 5.5-7.3l21.2-6 6-21.2c.9-3.3 3.9-5.5 7.3-5.5s6.4 2.2 7.3 5.5l6 21.2zM160 128c-17.7 0-32 14.3-32 32v16c0 44.2 35.8 80 80 80h32c44.2 0 80-35.8 80-80V160c0-17.7-14.3-32-32-32H160zM96 160c0-35.3 28.7-64 64-64H288c35.3 0 64 28.7 64 64v16c0 61.9-50.1 112-112 112H208c-61.9 0-112-50.1-112-112V160z' />
             </svg>
-            Database backups.
+            User Focussed Development
           </dt>
-          <dd class='inline'>Every night we make a backup of all data to S3.</dd>
+          <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600'>
+            <p class='flex-auto'>
+              We are working with a closed group of people. This allows us to focus on the right things. We call them
+              the Experts.
+            </p>
+          </dd>
+        </div>
+
+
+        <div class='flex flex-col'>
+          <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900'>
+            <svg
+              class='h-5 w-5 flex-none text-indigo-600'
+              fill='currentColor'
+              aria-hidden='true'
+              xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'>
+              <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d='M169.1 37.7c-5.8 6.6-12 17.3-18.1 31.9c-6.1 14.5-11.3 31-15.5 47.2c24.4 6.4 54 11.2 88.6 11.2c33.4 0 63.3-5.2 88.3-12.1c-4.2-15.9-9.3-32-15.3-46.3c-6.1-14.6-12.4-25.3-18.1-31.9c-4-4.6-6.3-5.6-7-5.7c-4.8 0-7.3 .6-8.5 1c-1 .3-1.9 .8-3.6 1.8c-.1 .1-.4 .3-.7 .5C255.7 37.9 242.2 48 224 48s-31.7-10.1-35.1-12.7l0 0c-.3-.3-.6-.4-.7-.5c-1.6-1.1-2.5-1.5-3.6-1.8c-1.1-.4-3.6-1-8.5-1c-.6 .2-3 1.2-7 5.7zM272 0c34.2 0 57 54.9 70.8 106c.8-.3 1.6-.6 2.4-.9c14.8-5.7 26.5-11.4 34.3-15.7c3.9-2.1 6.9-3.9 8.9-5c1-.6 1.7-1 2.2-1.3l.5-.3 .1 0 0 0 0 0c7.4-4.9 17.3-2.9 22.2 4.4s2.9 17.3-4.4 22.2L400 96c8.9 13.3 8.9 13.3 8.9 13.3l0 0 0 0-.1 0-.2 .1-.8 .5c-.7 .4-1.6 1-2.8 1.7c-2.4 1.4-5.8 3.5-10.3 5.8c-8.9 4.8-21.7 11.1-37.9 17.3C324.4 147.4 278.4 160 224 160c-58.3 0-104.3-12.5-135.9-25.1c-15.8-6.3-28-12.7-36.3-17.5c-4.2-2.4-7.4-4.5-9.6-6c-1.1-.7-2-1.3-2.6-1.8l-.7-.5-.2-.2-.1-.1 0 0 0 0s0 0 9.6-12.8l-9.6 12.8c-7.1-5.3-8.5-15.3-3.2-22.4c5.3-7.1 15.3-8.5 22.4-3.2l.1 0 .4 .3c.4 .3 1 .7 1.8 1.3c1.7 1.1 4.4 2.8 7.9 4.9c7.2 4.2 18 9.8 32.2 15.5c1.6 .6 3.3 1.3 5 1.9C118.7 55.7 141.5 0 176 0c18 0 25.9 5.4 32.5 9.9c4.7 3.3 8.8 6.1 15.5 6.1s10.8-2.8 15.5-6.1C246.1 5.4 254 0 272 0zm-.3 32a.1 .1 0 1 0 .1 .1 .1 .1 0 1 0 -.1-.1zm-95.6 0a.1 .1 0 1 0 .3 .1 .1 .1 0 1 0 -.3-.1zM100 224c-2.6-10.2-4-21-4-32c0-6.7 .5-13.3 1.5-19.7c9.6 3.1 19.9 6.1 31.1 8.8c-.4 3.6-.6 7.2-.6 10.9c0 53 43 96 96 96s96-43 96-96c0-4-.2-7.9-.7-11.7c11.1-2.8 21.5-5.8 31-9c1.1 6.8 1.7 13.7 1.7 20.8c0 11-1.4 21.8-4 32h71.2c7.1 0 12.8 5.7 12.8 12.8c0 2.1-.5 4.1-1.5 6l-45.7 86.8C423.6 364.8 448 415.5 448 472v8c0 17.7-14.3 32-32 32H272.4c-.2 0-.5 0-.7 0H176.4c-.2 0-.5 0-.7 0H32c-17.7 0-32-14.3-32-32v-8c0-56.5 24.4-107.2 63.2-142.4L17.5 242.8c-1-1.8-1.5-3.9-1.5-6c0-7.1 5.7-12.8 12.8-12.8H100zm234.8 32c-22.1 38.3-63.5 64-110.9 64s-88.7-25.7-110.9-64H60.6l30.9 58.7c6.8 12.9 4 28.8-6.8 38.6C52.3 382.7 32 424.9 32 472l0 8H154.8l-26.2-91.6c-2.4-8.5 2.5-17.4 11-19.8s17.4 2.5 19.8 11l20.3 70.9L201.8 384H192c-8.8 0-16-7.2-16-16s7.2-16 16-16h32 32c8.8 0 16 7.2 16 16s-7.2 16-16 16h-9.8l22.2 66.5 20.3-70.9c2.4-8.5 11.3-13.4 19.8-11s13.4 11.3 11 19.8L293.2 480H416v-8c0-47.1-20.3-89.3-52.7-118.6c-10.8-9.8-13.6-25.7-6.8-38.6L387.4 256H334.9zM203.5 480h40.9L224 418.6 203.5 480zM144 184.4c10.1 2 20.8 3.6 32 4.9V198c0 7 5.7 12.7 12.7 12.7c5.5 0 10.3-3.5 12-8.7l3.5-10.5c6.5 .3 13.1 .5 19.8 .5c6.7 0 13.3-.2 19.8-.5l3.5 10.5c1.7 5.2 6.6 8.7 12 8.7c7 0 12.7-5.7 12.7-12.7v-9c11.2-1.4 21.8-3.2 32-5.3V198c0 24.7-20 44.7-44.7 44.7c-14.1 0-27-6.6-35.3-17.3c-8.3 10.7-21.2 17.3-35.3 17.3c-24.7 0-44.7-20-44.7-44.7V184.4z' />
+            </svg>
+            Advanced security
+          </dt>
+          <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600'>
+            <p class='flex-auto'>
+              Each Team has his own seperate database + S3 space out of the box. Currently we also support 2FA and
+              session management.
+            </p>
+          </dd>
+        </div>
+
+        <div class='flex flex-col'>
+          <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900'>
+            <svg
+              class='h-5 w-5 flex-none text-indigo-600'
+              fill='currentColor'
+              aria-hidden='true'
+              xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'>
+              <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d='M192 128c0-53 43-96 96-96s96 43 96 96c0 8.8 7.2 16 16 16s16-7.2 16-16C416 57.3 358.7 0 288 0S160 57.3 160 128c0 40 18.4 75.8 47.1 99.2L147.3 323c-6.1-1.9-12.6-3-19.3-3c-35.3 0-64 28.7-64 64s28.7 64 64 64s64-28.7 64-64c0-17.1-6.7-32.6-17.6-44.1L238 238.2c7.2-11.5 3.2-25.5-6.5-32.7C207.5 188.1 192 159.9 192 128zM160 384a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM288 160a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm-64-32c0 35.3 28.7 64 64 64c6.7 0 13.2-1 19.3-3l63.5 101.7c7.2 11.5 21.6 14.1 32.2 8.4C416.5 292 431.7 288 448 288c53 0 96 43 96 96s-43 96-96 96c-18.7 0-36.1-5.3-50.9-14.6c-7.5-4.7-17.4-2.4-22.1 5.1s-2.4 17.4 5.1 22.1c19.7 12.3 43 19.5 67.9 19.5c70.7 0 128-57.3 128-128s-57.3-128-128-128c-19.2 0-37.4 4.2-53.8 11.8l-59.8-95.7c10.9-11.5 17.6-27 17.6-44.1c0-35.3-28.7-64-64-64s-64 28.7-64 64zM73.2 305.2c7.2-5.1 9-15 4-22.3s-15-9-22.3-4C21.7 302.1 0 340.5 0 384c0 70.7 57.3 128 128 128c65.3 0 119.1-48.9 127-112H386c7.1 27.6 32.2 48 62 48c35.3 0 64-28.7 64-64s-28.7-64-64-64c-29.8 0-54.9 20.4-62 48H248c-13.5 0-23.4 10.8-24.2 22.9C220.2 440.7 178.7 480 128 480c-53 0-96-43-96-96c0-32.6 16.2-61.4 41.2-78.8zM480 384a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z' />
+            </svg>
+            Powerful API .. in the making
+          </dt>
+          <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600'>
+            <p class='flex-auto'>
+              At this time our public API is limited. However we are currently slowly opening up more of
+              our internally used routes.
+            </p>
+          </dd>
+        </div>
+
+        <div class='flex flex-col'>
+          <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900'>
+            <svg
+              class='h-5 w-5 flex-none text-indigo-600'
+              fill='currentColor'
+              aria-hidden='true'
+              xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'>
+              <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d='M576 272v-224C576 21.49 554.5 0 528 0h-256C227.8 0 192 35.82 192 80V352c0 35.35 28.66 64 64 64h304c8.844 0 16-7.156 16-16S568.8 384 560 384H544V317.1C562.6 310.4 576 292.8 576 272zM512 384H256c-17.64 0-32-14.36-32-32s14.36-32 32-32h256V384zM528 288H256C244.3 288 233.5 291.4 224 296.9V80C224 53.49 245.5 32 272 32h256C536.8 32 544 39.16 544 48v224C544 280.8 536.8 288 528 288zM368 480H352v-16c0-8.838-7.164-16-16-16S320 455.2 320 464V480H65.81c-15.95 0-30.77-10.85-33.37-26.59C29.14 433.4 44.59 416 64 416h80C152.8 416 160 408.8 160 400C160 391.2 152.8 384 144 384H64c-11.71 0-22.55 3.389-32 8.9V176C32 149.5 53.49 128 80 128h64C152.8 128 160 120.8 160 112C160 103.2 152.8 96 144 96h-64C35.82 96 0 131.8 0 176V448c0 35.35 28.66 64 64 64h304c8.844 0 16-7.156 16-16S376.8 480 368 480z' />
+            </svg>
+            Database backups
+          </dt>
+          <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600'>
+            <p class='flex-auto'>
+              Every night, Handles our internal Bot, makes a copy of each database to a secret bucket on S3. Backups are
+              kept with a x day retention period.
+            </p>
+          </dd>
+        </div>
+
+        <div class='flex flex-col'>
+          <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900'>
+            <svg
+              class='h-5 w-5 flex-none text-indigo-600'
+              fill='currentColor'
+              aria-hidden='true'
+              xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'>
+              <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d='M576 272v-224C576 21.49 554.5 0 528 0h-256C227.8 0 192 35.82 192 80V352c0 35.35 28.66 64 64 64h304c8.844 0 16-7.156 16-16S568.8 384 560 384H544V317.1C562.6 310.4 576 292.8 576 272zM512 384H256c-17.64 0-32-14.36-32-32s14.36-32 32-32h256V384zM528 288H256C244.3 288 233.5 291.4 224 296.9V80C224 53.49 245.5 32 272 32h256C536.8 32 544 39.16 544 48v224C544 280.8 536.8 288 528 288zM368 480H352v-16c0-8.838-7.164-16-16-16S320 455.2 320 464V480H65.81c-15.95 0-30.77-10.85-33.37-26.59C29.14 433.4 44.59 416 64 416h80C152.8 416 160 408.8 160 400C160 391.2 152.8 384 144 384H64c-11.71 0-22.55 3.389-32 8.9V176C32 149.5 53.49 128 80 128h64C152.8 128 160 120.8 160 112C160 103.2 152.8 96 144 96h-64C35.82 96 0 131.8 0 176V448c0 35.35 28.66 64 64 64h304c8.844 0 16-7.156 16-16S376.8 480 368 480z' />
+            </svg>
+            Experienced Development Team
+          </dt>
+          <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600'>
+            <p class='flex-auto'>
+              We have a team of experienced Humans who have been working with the web for over 20 years. No. Not combined. Each.<br/><small>Well.. at least 2 of them.</small>
+            </p>
+          </dd>
+        </div>
+        <div class='flex flex-col'>
+          <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900'>
+            <svg
+              class='h-5 w-5 flex-none text-indigo-600'
+              fill='currentColor'
+              aria-hidden='true'
+              xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'>
+              <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d='M576 272v-224C576 21.49 554.5 0 528 0h-256C227.8 0 192 35.82 192 80V352c0 35.35 28.66 64 64 64h304c8.844 0 16-7.156 16-16S568.8 384 560 384H544V317.1C562.6 310.4 576 292.8 576 272zM512 384H256c-17.64 0-32-14.36-32-32s14.36-32 32-32h256V384zM528 288H256C244.3 288 233.5 291.4 224 296.9V80C224 53.49 245.5 32 272 32h256C536.8 32 544 39.16 544 48v224C544 280.8 536.8 288 528 288zM368 480H352v-16c0-8.838-7.164-16-16-16S320 455.2 320 464V480H65.81c-15.95 0-30.77-10.85-33.37-26.59C29.14 433.4 44.59 416 64 416h80C152.8 416 160 408.8 160 400C160 391.2 152.8 384 144 384H64c-11.71 0-22.55 3.389-32 8.9V176C32 149.5 53.49 128 80 128h64C152.8 128 160 120.8 160 112C160 103.2 152.8 96 144 96h-64C35.82 96 0 131.8 0 176V448c0 35.35 28.66 64 64 64h304c8.844 0 16-7.156 16-16S376.8 480 368 480z' />
+            </svg>
+            Fresh Blood
+          </dt>
+          <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600'>
+            <p class='flex-auto'>
+              Like I said, our small Team is divers. And yes we do have a few young passionate Humans who are eager to learn and grow.
+            </p>
+          </dd>
         </div>
       </dl>
     </div>
