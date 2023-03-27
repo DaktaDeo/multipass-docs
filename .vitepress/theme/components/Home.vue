@@ -10,12 +10,13 @@ import SponsorsGroup from './SponsorsGroup.vue'
 </script>
 
 <template>
-  <section class='relative overflow-hidden soft '>
+  <section class='relative overflow-hidden'>
     <div class='mx-auto max-w-7xl pt-10 pb-24 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:py-40 lg:px-8'>
       <div class='px-6 lg:px-0 lg:pt-4'>
         <div class='mx-auto max-w-2xl'>
           <div class='max-w-lg'>
-            <h1 class='mt-10 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-300 dark:text-gray-300 sm:text-4xl flex'>
+            <h1
+              class='mt-10 text-3xl font-bold tracking-tight text-neutral-800 dark:text-neutral-300 dark:text-neutral-300 sm:text-4xl flex'>
                 <span class='fill-color inline-svg'>
                 <svg class='logo multipass' version='1.1' xmlns='http://www.w3.org/2000/svg'
                      xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px'
@@ -35,82 +36,95 @@ import SponsorsGroup from './SponsorsGroup.vue'
                     </g>
                 </svg>
                 </span>
-              <span class='pl-3'>Supercharge your admin 🎉</span></h1>
-            <p class='mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400 mx-2 dark:text-gray-400'>
-              With Multipass you can organize your digital data, think Client-info, Products, Suppliers, .. in one
+              <span class='pl-3'><span class='accent'>Supercharge</span> your admin 🎉</span>
+            </h1>
+            <!--            <small-->
+            <!--              class="block p-0 my-2 mx-0 text-sm not-italic leading-6 text-left bg-scroll bg-none appearance-none scroll-auto text-slate-500"-->
+            <!--              style="outline: none; text-decoration: none; list-style: none; animation-delay: -1ms; animation-duration: 1ms; animation-iteration-count: 1; font-weight: 420;"-->
+            <!--            ><span-->
+            <!--              class="py-px px-2 m-0 leading-6 whitespace-nowrap bg-none rounded-md appearance-none scroll-auto text-zinc-700"-->
+            <!--              style="text-decoration: none; list-style: none; animation-delay: -1ms; animation-duration: 1ms; animation-iteration-count: 1; outline: none; font-weight: 420;"-->
+            <!--            >New</span-->
+            <!--            >-->
+            <!--              <a-->
+            <!--                href="https://usefathom.com/blog/event-filtering"-->
+            <!--                class="p-0 m-0 leading-6 text-indigo-500 bg-none appearance-none cursor-pointer scroll-auto"-->
+            <!--                style="outline: none; text-decoration: underline; list-style: none; animation-delay: -1ms; animation-duration: 1ms; animation-iteration-count: 1; transition: color 0.2s ease 0s;"-->
+            <!--              >Filter your dashboard by event completions</a-->
+            <!--              >-->
+            <!--            </small>-->
+
+
+            <p class='mt-6 text-lg leading-8 text-neutral-600 dark:text-neutral-400 mx-2 dark:text-neutral-400'>
+              With Multipass you can <strong class='text--mp dark:text-amber-800'>organize</strong> your digital data,
+              think Client-info, Products, Suppliers, .. in one
               single place.
             </p>
-            <p class='mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400 mx-2  dark:text-gray-400'>
-              We focus on the needs of: Makers, Freelancers, Consultants, Startups, Non-Profit, Small Businesses, and
-              more.
-              In short: <strong>everyone</strong> who needs to organize their digital data; and works in a smaller team,
+            <p class='mt-6 text-lg leading-8 text-neutral-600 dark:text-neutral-400 mx-2  dark:text-neutral-400'>
+              Multipass is <strong class='text--mp dark:text-amber-800'>focussed</strong> on the needs of: Makers,
+              Freelancers, Consultants, Startups, Non-Profit, Small Businesses, and
+              other Fantastic Humans.
+            </p>
+            <p class='mt-6 text-lg leading-8 text-neutral-600 dark:text-neutral-400 mx-2  dark:text-neutral-400'>
+              In short: <strong class='text--mp dark:text-amber-800'>everyone</strong> who needs to organize their
+              digital data; and works in a <strong class='text--mp dark:text-amber-800'>smaller team</strong>,
               or alone.
             </p>
-            <div class='mt-10 flex items-center gap-x-6'>
-              <a
-                class=' rounded-md bg-indigo-600 dark:bg-amber-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
-                href='/guide/introduction.html'>
-                Get Started
-                <span aria-hidden='true'>→</span>
-              </a>
-            </div>
+            <p class='mt-6 text-lg leading-8 text-neutral-600 dark:text-neutral-400 mx-2  dark:text-neutral-400 text-sm'>
+              At this time we are only allowing users to register via an invite link.
+            </p>
+            <!--            <div class='mt-10 flex items-center gap-x-6'>-->
+            <!--              <a-->
+            <!--                class=' rounded-md bg-red-800 dark:bg-amber-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-800'-->
+            <!--                href='/guide/introduction.html'>-->
+            <!--                Get Started-->
+            <!--                <span aria-hidden='true'>→</span>-->
+            <!--              </a>-->
+            <!--            </div>-->
+
+              <div class='mt-10 flex items-center justify-center gap-x-6'>
+                <a href='#'
+                   class='rounded-md bg-red-800 px-4 py-3 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-800'>Why
+                  choose Multipass?</a>
+                <a href='#' class='text-md font-semibold leading-6 text-neutral-900'>Learn more <span
+                  aria-hidden='true'>→</span></a>
+              </div>
+
           </div>
         </div>
       </div>
       <div class='mt-20 sm:mt-24 md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-0 lg:w-screen'>
         <div
-          class='absolute inset-y-0 right-1/2 -z-10 -mr-10 w-[200%] skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 md:-mr-20 lg:-mr-36'
+          class='absolute inset-y-0 right-1/2 -z-10 -mr-10 w-[200%] skew-x-[-30deg] bg-white shadow-xl shadow-red-800/10 ring-1 ring-indigo-50 md:-mr-20 lg:-mr-36'
           aria-hidden='true'></div>
-        <div class='shadow-lg md:rounded-3xl'>
-          <div class='bg-indigo-500 [clip-path:inset(0)] md:[clip-path:inset(0_round_theme(borderRadius.3xl))]'>
-            <div
-              class='absolute -inset-y-px left-1/2 -z-10 ml-10 w-[200%] skew-x-[-30deg] bg-indigo-100 opacity-20 ring-1 ring-inset ring-white md:ml-20 lg:ml-36'
-              aria-hidden='true'></div>
-            <div class='relative px-6 pt-8 sm:pt-16 md:pl-16 md:pr-0'>
-              <div class='mx-auto max-w-2xl md:mx-0 md:max-w-none'>
-                <div class='w-screen overflow-hidden rounded-tl-xl bg-gray-900'>
-                  <div class='flex bg-gray-800/40 ring-1 ring-white/5'>
-                    <div class='-mb-px flex text-sm font-medium leading-6 text-gray-400'>
-                      <div
-                        class='border-b border-r border-b-white/20 border-r-white/10 bg-white/5 py-2 px-4 text-white'>
-                        NotificationSetting.jsx
-                      </div>
-                      <div class='border-r border-gray-600/10 py-2 px-4'>App.jsx</div>
-                    </div>
-                  </div>
-                  <div class='px-6 pt-6 pb-14'>
-                    <!-- Your code example -->
-                    test
-                  </div>
-                </div>
-              </div>
-              <div class='pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 md:rounded-3xl'
-                   aria-hidden='true'></div>
-            </div>
-          </div>
+        <div class='dark:shadow-lg dark:md:rounded-3xl dark:bg-neutral-700 dark:p-4'>
+          <img class='object-cover w-full h-full rounded-3xl' src='images/data-rocket.svg' alt='A data rocket' />
         </div>
       </div>
     </div>
     <div class='absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32'></div>
   </section>
 
-  <section class='py-24 sm:py-32'>
+  <section class=''>
     <div class='mx-auto max-w-7xl px-6 lg:px-8'>
       <div class='mx-auto max-w-2xl sm:text-center'>
-        <h2 class='text-base font-semibold leading-7 text-indigo-600 dark:text-amber-800 dark:text-amber-800'>All your digital admin in one
+        <h2 class='text-base font-semibold leading-7 text-red-800 dark:text-amber-800 dark:text-amber-800'>All your
+          digital admin in one
           app</h2>
-        <p class='mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-300 sm:text-4xl dark:text-gray-300'>Just an easy to
+        <p
+          class='mt-2 text-3xl font-bold tracking-tight text-neutral-900 dark:text-neutral-300 sm:text-4xl dark:text-neutral-300'>
+          Just an easy to
           use, simple yet
           powerfull webapp</p>
-        <p class='mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400'>
+        <p class='mt-6 text-lg leading-8 text-neutral-600 dark:text-neutral-400'>
 
         </p>
       </div>
     </div>
     <div class='relative overflow-hidden pt-16'>
       <div class='mx-auto max-w-7xl px-6 lg:px-8'>
-        <img src='https://tailwindui.com/img/component-images/project-app-screenshot.png' alt='App screenshot'
-             class='mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10' width='2432' height='1442'>
+        <img src='https://beta.multipass.rocks/storage/media/2021/08/screenshot-1-opt.png' alt='App screenshot v2020'
+             class='mb-[-12%] rounded-xl shadow-2xl ring-1 ring-neutral-900/10' width='2432' height='1442'>
         <div class='relative' aria-hidden='true'>
           <div class='absolute -inset-x-20 bottom-0 bg-gradient-to-t from-white pt-[7%] dark:from-neutral-900'></div>
         </div>
@@ -121,28 +135,34 @@ import SponsorsGroup from './SponsorsGroup.vue'
       <div class='mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none'>
         <dl class='grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3'>
           <div class='flex flex-col'>
-            <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900 dark:text-gray-300'>
+            <dt
+              class='flex items-center gap-x-3 text-base font-semibold leading-7 text-neutral-900 dark:text-neutral-300'>
               <svg
                 class='h-5 w-5 flex-none text-green-600 dark:text-amber-800 dark:text-amber-800'
                 fill='currentColor'
                 aria-hidden='true'
-               xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M439.6 391.6l-68.98-79.59h15.2c25.59 0 39.5-29.17 23.19-48.48l-60.86-71.51h10.77c21.28 0 32.9-22.5 19.28-37.31l-134.9-146.5C238.3 2.796 231.2 0 224 0S209.7 2.799 204.7 8.236L69.93 154.7C56.34 169.5 67.93 192 89.21 192h10.73L39.03 263.5C22.72 282.9 36.62 312 62.22 312h15.2l-68.98 79.59c-18.1 21.91-3.811 56.4 24.69 56.4L208 447.1V496c0 8.844 7.269 16 16.11 16S240 504.8 240 496v-48l174.8 .0133C443.4 448 458.5 413.4 439.6 391.6zM414.8 415.1L240 416v-57.38l43.31-43.31c6.25-6.25 6.25-16.38 0-22.62s-16.38-6.25-22.62 0L240 313.4V176c0-8.844-7.157-16.01-16-16.01S208 167.2 208 176v80.01L188.8 230.4C183.5 223.3 173.5 221.9 166.4 227.2C159.3 232.5 157.9 242.5 163.2 249.6L208 309.3v106.7l-175.1 .0039c-.1934-.127-.7109-.8008-.8379-1.717c-.0957-.6934 .0469-1.115 .5938-1.748l114.9-132.6l-80.48-.002l102.2-120H108.5l115.5-125.6l115.6 125.6h-60.7l102.1 120H300.6l114.9 132.6c.457 .5273 .6562 .918 .5469 1.701C415.8 415.2 415.3 415.9 414.8 415.1z"/></svg>
+                xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'>
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d='M439.6 391.6l-68.98-79.59h15.2c25.59 0 39.5-29.17 23.19-48.48l-60.86-71.51h10.77c21.28 0 32.9-22.5 19.28-37.31l-134.9-146.5C238.3 2.796 231.2 0 224 0S209.7 2.799 204.7 8.236L69.93 154.7C56.34 169.5 67.93 192 89.21 192h10.73L39.03 263.5C22.72 282.9 36.62 312 62.22 312h15.2l-68.98 79.59c-18.1 21.91-3.811 56.4 24.69 56.4L208 447.1V496c0 8.844 7.269 16 16.11 16S240 504.8 240 496v-48l174.8 .0133C443.4 448 458.5 413.4 439.6 391.6zM414.8 415.1L240 416v-57.38l43.31-43.31c6.25-6.25 6.25-16.38 0-22.62s-16.38-6.25-22.62 0L240 313.4V176c0-8.844-7.157-16.01-16-16.01S208 167.2 208 176v80.01L188.8 230.4C183.5 223.3 173.5 221.9 166.4 227.2C159.3 232.5 157.9 242.5 163.2 249.6L208 309.3v106.7l-175.1 .0039c-.1934-.127-.7109-.8008-.8379-1.717c-.0957-.6934 .0469-1.115 .5938-1.748l114.9-132.6l-80.48-.002l102.2-120H108.5l115.5-125.6l115.6 125.6h-60.7l102.1 120H300.6l114.9 132.6c.457 .5273 .6562 .918 .5469 1.701C415.8 415.2 415.3 415.9 414.8 415.1z' />
+              </svg>
               Structured data
             </dt>
-            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600 dark:text-gray-400'>
+            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-neutral-600 dark:text-neutral-400'>
               <p class='flex-auto'>
                 Say Goodbye to spreadsheets, say <i>Hello!</i> to a robust normalized structure in which you can easily
                 enter and view relationships for companies,
                 organizations and individuals.
               </p>
               <!--              <p class="mt-6">-->
-              <!--                <a href="#" class="text-sm font-semibold leading-6 text-indigo-600 dark:text-amber-800">Learn more <span aria-hidden="true">→</span></a>-->
+              <!--                <a href="#" class="text-sm font-semibold leading-6 text-red-800 dark:text-amber-800">Learn more <span aria-hidden="true">→</span></a>-->
               <!--              </p>-->
             </dd>
           </div>
 
           <div class='flex flex-col'>
-            <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900 dark:text-gray-300 dark:text-gray-200'>
+            <dt
+              class='flex items-center gap-x-3 text-base font-semibold leading-7 text-neutral-900 dark:text-neutral-300 dark:text-neutral-200'>
               <svg
                 class='h-5 w-5 flex-none text-green-600 dark:text-amber-800'
                 fill='currentColor'
@@ -154,67 +174,82 @@ import SponsorsGroup from './SponsorsGroup.vue'
               </svg>
               We are all Humans :)
             </dt>
-            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600 dark:text-gray-400'>
+            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-neutral-600 dark:text-neutral-400'>
               <p class='flex-auto'>
                 With our 'Humans' concept, you can virtually monitor the work of others in your team who are not users
                 in Multipass.
               </p>
               <!--              <p class="mt-6">-->
-              <!--                <a href="#" class="text-sm font-semibold leading-6 text-indigo-600 dark:text-amber-800">Learn more <span aria-hidden="true">→</span></a>-->
+              <!--                <a href="#" class="text-sm font-semibold leading-6 text-red-800 dark:text-amber-800">Learn more <span aria-hidden="true">→</span></a>-->
               <!--              </p>-->
             </dd>
           </div>
 
           <div class='flex flex-col'>
-            <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900 dark:text-gray-300'>
+            <dt
+              class='flex items-center gap-x-3 text-base font-semibold leading-7 text-neutral-900 dark:text-neutral-300'>
               <svg
                 class='h-5 w-5 flex-none text-yellow-600 dark:text-amber-800'
                 fill='currentColor'
                 aria-hidden='true'
-              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M562.4 190.1l76.12-167.5c3.656-8.062 .0938-17.53-7.938-21.19c-8-3.594-17.5-.125-21.19 7.939l-75.14 165.3C512.8 165.3 489 159.1 464 159.1c-72.28 0-142.2 25.83-197.1 72.85l-96.06 82.25c-6.967 5.963-15.07 8.645-23 8.645C129.5 323.7 112 309.3 112 287.1v-32l65.75-36.38C186.6 213.7 192 203.7 192 192.1V111.1c0-9.391-7.709-15.99-16.01-15.99c-2.969 0-6.012 .8438-8.807 2.707l-71.17 47.4L24.88 98.72C22.08 96.86 19.02 96.01 16.05 96.01C7.727 96.01 0 102.6 0 112v80.93c.002 10.75 5.375 20.75 14.25 26.62L80 255.1v96C80 440.4 151.6 512 240 512h224c97.2 0 176-78.8 176-176C640 275.3 609.2 221.7 562.4 190.1zM96 228.3C95.83 228.2 32 192.9 32 192.9V141.9L78.24 172.7C83.5 176.2 89.71 178.1 96.02 178.1S108.5 176.2 113.8 172.7l46.27-30.82l.0527 50.91C160.1 192.8 96.17 228.2 96 228.3zM464 479.1h-224c-70.58 0-128-57.42-128-128v-6.516c10.41 6.496 22.71 10.25 35.87 10.25c15.95 0 31.51-5.801 43.81-16.34l96.06-82.25C336.8 215.1 399.4 191.1 464 191.1c79.4 0 144 64.6 144 144S543.4 479.1 464 479.1zM504 271.1c-13.25 0-24 10.74-24 24c0 13.25 10.75 24 24 24s24-10.75 24-24C528 282.7 517.3 271.1 504 271.1z"/></svg>
+                xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 512'>
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d='M562.4 190.1l76.12-167.5c3.656-8.062 .0938-17.53-7.938-21.19c-8-3.594-17.5-.125-21.19 7.939l-75.14 165.3C512.8 165.3 489 159.1 464 159.1c-72.28 0-142.2 25.83-197.1 72.85l-96.06 82.25c-6.967 5.963-15.07 8.645-23 8.645C129.5 323.7 112 309.3 112 287.1v-32l65.75-36.38C186.6 213.7 192 203.7 192 192.1V111.1c0-9.391-7.709-15.99-16.01-15.99c-2.969 0-6.012 .8438-8.807 2.707l-71.17 47.4L24.88 98.72C22.08 96.86 19.02 96.01 16.05 96.01C7.727 96.01 0 102.6 0 112v80.93c.002 10.75 5.375 20.75 14.25 26.62L80 255.1v96C80 440.4 151.6 512 240 512h224c97.2 0 176-78.8 176-176C640 275.3 609.2 221.7 562.4 190.1zM96 228.3C95.83 228.2 32 192.9 32 192.9V141.9L78.24 172.7C83.5 176.2 89.71 178.1 96.02 178.1S108.5 176.2 113.8 172.7l46.27-30.82l.0527 50.91C160.1 192.8 96.17 228.2 96 228.3zM464 479.1h-224c-70.58 0-128-57.42-128-128v-6.516c10.41 6.496 22.71 10.25 35.87 10.25c15.95 0 31.51-5.801 43.81-16.34l96.06-82.25C336.8 215.1 399.4 191.1 464 191.1c79.4 0 144 64.6 144 144S543.4 479.1 464 479.1zM504 271.1c-13.25 0-24 10.74-24 24c0 13.25 10.75 24 24 24s24-10.75 24-24C528 282.7 517.3 271.1 504 271.1z' />
+              </svg>
               Everyone is unique
             </dt>
-            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600 dark:text-gray-400'>
+            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-neutral-600 dark:text-neutral-400'>
               <p class='flex-auto'>
                 Not everyone likes text. Some people prefer colors, or even emojis. Multipass allows you to do just
                 that. Sensibly. Or not.
               </p>
               <!--              <p class="mt-6">-->
-              <!--                <a href="#" class="text-sm font-semibold leading-6 text-indigo-600 dark:text-amber-800">Learn more <span aria-hidden="true">→</span></a>-->
+              <!--                <a href="#" class="text-sm font-semibold leading-6 text-red-800 dark:text-amber-800">Learn more <span aria-hidden="true">→</span></a>-->
               <!--              </p>-->
             </dd>
           </div>
 
           <div class='flex flex-col'>
-            <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900 dark:text-gray-300'>
+            <dt
+              class='flex items-center gap-x-3 text-base font-semibold leading-7 text-neutral-900 dark:text-neutral-300'>
               <svg
-                class='h-5 w-5 flex-none text-gray-600 dark:text-amber-800'
+                class='h-5 w-5 flex-none text-neutral-600 dark:text-amber-800'
                 fill='currentColor'
                 aria-hidden='true'
-               xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M429.8 39.6c-9.4-9.4-24.6-9.4-33.9 0L341 94.4 417.6 171l54.8-54.8c9.4-9.4 9.4-24.6 0-33.9L429.8 39.6zM83.1 352.4c-7.6 7.6-13.1 16.9-16.1 27.2L39.6 472.4l92.8-27.3c10.3-3 19.6-8.6 27.2-16.1L395 193.6 318.4 117 83.1 352.4zM373.2 17c21.9-21.9 57.3-21.9 79.2 0L495 59.6c21.9 21.9 21.9 57.3 0 79.2L182.3 451.6c-11.4 11.4-25.4 19.7-40.8 24.2l-121 35.6c-5.6 1.7-11.7 .1-15.8-4s-5.7-10.2-4-15.8l35.6-121c4.5-15.4 12.9-29.4 24.2-40.8L373.2 17zM82.7 27.3c25-25 65.5-25 90.5 0l70.9 70.9-22.6 22.6L189.7 89l-34.3 34.3c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L167 66.3 150.6 49.9c-12.5-12.5-32.8-12.5-45.3 0L49.9 105.4c-12.5 12.5-12.5 32.8 0 45.3l70.9 70.9L98.2 244.1 27.3 173.3c-25-25-25-65.5 0-90.5L82.7 27.3zm256 457.4l-70.9-70.9 22.6-22.6 70.9 70.9c12.5 12.5 32.8 12.5 45.3 0l55.4-55.4c12.5-12.5 12.5-32.8 0-45.3L445.7 345l-34.3 34.3c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L423 322.3l-31.8-31.8 22.6-22.6 70.9 70.9c25 25 25 65.5 0 90.5l-55.4 55.4c-25 25-65.5 25-90.5 0z"/></svg>
+                xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d='M429.8 39.6c-9.4-9.4-24.6-9.4-33.9 0L341 94.4 417.6 171l54.8-54.8c9.4-9.4 9.4-24.6 0-33.9L429.8 39.6zM83.1 352.4c-7.6 7.6-13.1 16.9-16.1 27.2L39.6 472.4l92.8-27.3c10.3-3 19.6-8.6 27.2-16.1L395 193.6 318.4 117 83.1 352.4zM373.2 17c21.9-21.9 57.3-21.9 79.2 0L495 59.6c21.9 21.9 21.9 57.3 0 79.2L182.3 451.6c-11.4 11.4-25.4 19.7-40.8 24.2l-121 35.6c-5.6 1.7-11.7 .1-15.8-4s-5.7-10.2-4-15.8l35.6-121c4.5-15.4 12.9-29.4 24.2-40.8L373.2 17zM82.7 27.3c25-25 65.5-25 90.5 0l70.9 70.9-22.6 22.6L189.7 89l-34.3 34.3c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L167 66.3 150.6 49.9c-12.5-12.5-32.8-12.5-45.3 0L49.9 105.4c-12.5 12.5-12.5 32.8 0 45.3l70.9 70.9L98.2 244.1 27.3 173.3c-25-25-25-65.5 0-90.5L82.7 27.3zm256 457.4l-70.9-70.9 22.6-22.6 70.9 70.9c12.5 12.5 32.8 12.5 45.3 0l55.4-55.4c12.5-12.5 12.5-32.8 0-45.3L445.7 345l-34.3 34.3c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L423 322.3l-31.8-31.8 22.6-22.6 70.9 70.9c25 25 25 65.5 0 90.5l-55.4 55.4c-25 25-65.5 25-90.5 0z' />
+              </svg>
               For Makers, By Makers
             </dt>
-            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600 dark:text-gray-400'>
+            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-neutral-600 dark:text-neutral-400'>
               <p class='flex-auto mt-2'>
                 Easily create Products, Make Assemblies, re-use them, make different Assemblies with the same products,
                 create Variants, and more.
               </p>
               <!--              <p class="mt-6">-->
-              <!--                <a href="#" class="text-sm font-semibold leading-6 text-indigo-600 dark:text-amber-800">Learn more <span aria-hidden="true">→</span></a>-->
+              <!--                <a href="#" class="text-sm font-semibold leading-6 text-red-800 dark:text-amber-800">Learn more <span aria-hidden="true">→</span></a>-->
               <!--              </p>-->
             </dd>
           </div>
 
           <div class='flex flex-col'>
-            <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900 dark:text-gray-300'>
+            <dt
+              class='flex items-center gap-x-3 text-base font-semibold leading-7 text-neutral-900 dark:text-neutral-300'>
               <svg
                 class='h-5 w-5 flex-none text-blue-600 dark:text-amber-800'
                 fill='currentColor'
                 aria-hidden='true'
-               xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M287.1 191.1C296.8 191.1 304 199.2 304 207.1V287.1H312C320.8 287.1 328 295.2 328 303.1C328 312.8 320.8 319.1 312 319.1H263.1C255.2 319.1 247.1 312.8 247.1 303.1C247.1 295.2 255.2 287.1 263.1 287.1H271.1V223.1C263.2 223.1 255.1 216.8 255.1 207.1C255.1 199.2 263.2 191.1 271.1 191.1H287.1zM400 255.1C400 320.1 355.1 384 287.1 384C220.9 384 175.1 320.1 175.1 255.1C175.1 191 220.9 127.1 287.1 127.1C355.1 127.1 400 191 400 255.1zM287.1 352C332.2 352 368 309 368 255.1C368 202.1 332.2 159.1 287.1 159.1C243.8 159.1 207.1 202.1 207.1 255.1C207.1 309 243.8 352 287.1 352zM48.66 79.13C128.4 100.9 208.2 80.59 288 60.25C375 38.08 462 15.9 549 48.38C565.9 54.69 576 71.62 576 89.66V399.5C576 423.4 550.4 439.2 527.3 432.9C447.6 411.1 367.8 431.4 288 451.7C200.1 473.9 113.1 496.1 26.97 463.6C10.06 457.3 0 440.4 0 422.3V112.5C0 88.59 25.61 72.83 48.66 79.13L48.66 79.13zM31.1 112.5V183.1C67.35 183.1 95.1 155.3 95.1 119.1V119.5C77.5 118.1 58.88 115.1 40.23 109.1C38.06 109.4 35.35 109.8 33.34 111.2C32.45 111.8 32.09 112.3 32.01 112.4L31.1 112.5zM38.16 433.6C57.3 440.8 76.53 444.1 95.1 446.8V440C95.1 404.7 67.35 376 31.1 376V422.3C31.1 429.2 35.66 432.7 38.16 433.6zM127.1 447.9C172.7 446.1 219.1 436.2 269.3 423.5C273.6 422.4 277.9 421.3 282.3 420.2C334.1 406.9 390.2 392.6 448 391.6C448.2 338.8 491.1 295.1 544 295.1V167.1C490.1 167.1 448 125 448 71.1V64.05C403.3 65.01 356.9 75.78 306.7 88.51C302.4 89.6 298.1 90.71 293.7 91.82C241.9 105.1 185.8 119.4 127.1 120.4C127.8 173.2 84.88 215.1 31.1 215.1V344C85.02 344 127.1 386.1 127.1 440V447.9zM480 392.5C498.5 393.9 517.1 396.9 535.8 402C537.9 402.6 540.6 402.2 542.7 400.8C543.6 400.2 543.9 399.7 543.1 399.6C544 399.6 543.1 399.6 543.1 399.6C543.1 399.6 544 399.6 544 399.5V328C508.7 328 480 356.7 480 392V392.5zM480 65.17V71.1C480 107.3 508.7 135.1 544 135.1V89.66C544 82.82 540.3 79.29 537.8 78.36C518.7 71.21 499.5 67.04 480 65.17z"/></svg>
+                xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'>
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d='M287.1 191.1C296.8 191.1 304 199.2 304 207.1V287.1H312C320.8 287.1 328 295.2 328 303.1C328 312.8 320.8 319.1 312 319.1H263.1C255.2 319.1 247.1 312.8 247.1 303.1C247.1 295.2 255.2 287.1 263.1 287.1H271.1V223.1C263.2 223.1 255.1 216.8 255.1 207.1C255.1 199.2 263.2 191.1 271.1 191.1H287.1zM400 255.1C400 320.1 355.1 384 287.1 384C220.9 384 175.1 320.1 175.1 255.1C175.1 191 220.9 127.1 287.1 127.1C355.1 127.1 400 191 400 255.1zM287.1 352C332.2 352 368 309 368 255.1C368 202.1 332.2 159.1 287.1 159.1C243.8 159.1 207.1 202.1 207.1 255.1C207.1 309 243.8 352 287.1 352zM48.66 79.13C128.4 100.9 208.2 80.59 288 60.25C375 38.08 462 15.9 549 48.38C565.9 54.69 576 71.62 576 89.66V399.5C576 423.4 550.4 439.2 527.3 432.9C447.6 411.1 367.8 431.4 288 451.7C200.1 473.9 113.1 496.1 26.97 463.6C10.06 457.3 0 440.4 0 422.3V112.5C0 88.59 25.61 72.83 48.66 79.13L48.66 79.13zM31.1 112.5V183.1C67.35 183.1 95.1 155.3 95.1 119.1V119.5C77.5 118.1 58.88 115.1 40.23 109.1C38.06 109.4 35.35 109.8 33.34 111.2C32.45 111.8 32.09 112.3 32.01 112.4L31.1 112.5zM38.16 433.6C57.3 440.8 76.53 444.1 95.1 446.8V440C95.1 404.7 67.35 376 31.1 376V422.3C31.1 429.2 35.66 432.7 38.16 433.6zM127.1 447.9C172.7 446.1 219.1 436.2 269.3 423.5C273.6 422.4 277.9 421.3 282.3 420.2C334.1 406.9 390.2 392.6 448 391.6C448.2 338.8 491.1 295.1 544 295.1V167.1C490.1 167.1 448 125 448 71.1V64.05C403.3 65.01 356.9 75.78 306.7 88.51C302.4 89.6 298.1 90.71 293.7 91.82C241.9 105.1 185.8 119.4 127.1 120.4C127.8 173.2 84.88 215.1 31.1 215.1V344C85.02 344 127.1 386.1 127.1 440V447.9zM480 392.5C498.5 393.9 517.1 396.9 535.8 402C537.9 402.6 540.6 402.2 542.7 400.8C543.6 400.2 543.9 399.7 543.1 399.6C544 399.6 543.1 399.6 543.1 399.6C543.1 399.6 544 399.6 544 399.5V328C508.7 328 480 356.7 480 392V392.5zM480 65.17V71.1C480 107.3 508.7 135.1 544 135.1V89.66C544 82.82 540.3 79.29 537.8 78.36C518.7 71.21 499.5 67.04 480 65.17z' />
+              </svg>
               Sell Your stuff
             </dt>
-            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600 dark:text-gray-400'>
+            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-neutral-600 dark:text-neutral-400'>
               <p class='flex-auto mt-2'>
                 Yes, we have a Cost Price Calculator for your clients too. A complete webshop is coming soon.
               </p>
@@ -223,9 +258,10 @@ import SponsorsGroup from './SponsorsGroup.vue'
 
 
           <div class='flex flex-col'>
-            <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900 dark:text-gray-300'>
+            <dt
+              class='flex items-center gap-x-3 text-base font-semibold leading-7 text-neutral-900 dark:text-neutral-300'>
               <svg
-                class='h-5 w-5 flex-none text-indigo-600 dark:text-amber-800'
+                class='h-5 w-5 flex-none text-red-800 dark:text-amber-800'
                 fill='currentColor'
                 aria-hidden='true'
                 xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 512'>
@@ -235,34 +271,52 @@ import SponsorsGroup from './SponsorsGroup.vue'
               </svg>
               Multipass: a diverse Passionate Team
             </dt>
-            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600 dark:text-gray-400'>
+            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-neutral-600 dark:text-neutral-400'>
               <p class='flex-auto'>
                 We are a mixed team of makers, wizards, hackers, and tinkerers. We got your Back.
               </p>
             </dd>
           </div>
-
         </dl>
       </div>
     </div>
+
+
+<!--    <div class='mx-auto max-w-2xl text-center'>-->
+<!--      <div class='mt-10 flex items-center justify-center gap-x-6'>-->
+<!--        <a href='#'-->
+<!--           class='rounded-md bg-red-800 px-4 py-3 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-800'>Why-->
+<!--          choose Multipass?</a>-->
+<!--        <a href='#' class='text-md font-semibold leading-6 text-neutral-900'>Learn more <span-->
+<!--          aria-hidden='true'>→</span></a>-->
+<!--      </div>-->
+<!--    </div>-->
   </section>
 
-  <section class='py-24 sm:py-32 sm:mt-20 md:mt-24 mt-16 soft'>
+  <section class=' '>
     <div class='mx-auto max-w-7xl px-6 lg:px-8'>
       <div class='mx-auto max-w-2xl lg:text-center'>
-        <h2 class='text-base font-semibold leading-7 text-indigo-600 dark:text-amber-800'>Features</h2>
-        <p class='mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-300 sm:text-4xl'>A list of growing Goodies</p>
-        <p class='mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400'>
+        <div class='mt-16 flow-root sm:mt-24'>
+          <div class='-m-2 rounded-xl lg:-m-4  lg:p-4'>
+            <img src='images/human-growing.svg' alt='A human growing'>
+          </div>
+        </div>
+        <h2 class='text-base font-semibold leading-7 text-red-800 dark:text-amber-800'>Features</h2>
+        <p class='mt-2 text-3xl font-bold tracking-tight text-neutral-900 dark:text-neutral-300 sm:text-4xl'>A list of
+          growing Goodies</p>
+        <p class='mt-6 text-lg leading-8 text-neutral-600 dark:text-neutral-400'>
           Multipass is a growing project. We are adding new features and goodies all the time. Here is a list of the
           current features:
         </p>
       </div>
       <div class='mx-auto mt-8 max-w-2xl sm:mt-12 lg:mt-16 lg:max-w-none'>
+
         <dl class='grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3'>
           <div class='flex flex-col'>
-            <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900 dark:text-gray-300'>
+            <dt
+              class='flex items-center gap-x-3 text-base font-semibold leading-7 text-neutral-900 dark:text-neutral-300'>
               <svg
-                class='h-5 w-5 flex-none text-indigo-600 dark:text-amber-800'
+                class='h-5 w-5 flex-none text-red-800 dark:text-amber-800'
                 fill='currentColor'
                 aria-hidden='true'
                 xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 512'>
@@ -272,21 +326,22 @@ import SponsorsGroup from './SponsorsGroup.vue'
               </svg>
               App: Contacts
             </dt>
-            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600 dark:text-gray-400'>
+            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-neutral-600 dark:text-neutral-400'>
               <p class='flex-auto'>
                 A robust normalized structure in which you can easily enter and view relationships for companies,
                 organizations and individuals.
               </p>
               <!--              <p class="mt-6">-->
-              <!--                <a href="#" class="text-sm font-semibold leading-6 text-indigo-600 dark:text-amber-800">Learn more <span aria-hidden="true">→</span></a>-->
+              <!--                <a href="#" class="text-sm font-semibold leading-6 text-red-800 dark:text-amber-800">Learn more <span aria-hidden="true">→</span></a>-->
               <!--              </p>-->
             </dd>
           </div>
 
           <div class='flex flex-col'>
-            <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900 dark:text-gray-300'>
+            <dt
+              class='flex items-center gap-x-3 text-base font-semibold leading-7 text-neutral-900 dark:text-neutral-300'>
               <svg
-                class='h-5 w-5 flex-none text-indigo-600 dark:text-amber-800'
+                class='h-5 w-5 flex-none text-red-800 dark:text-amber-800'
                 fill='currentColor'
                 aria-hidden='true'
                 xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 512'>
@@ -296,7 +351,7 @@ import SponsorsGroup from './SponsorsGroup.vue'
               </svg>
               Taxonomy: Labels
             </dt>
-            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600 dark:text-gray-400'>
+            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-neutral-600 dark:text-neutral-400'>
               <p class='flex-auto'>
                 Labels, tags or labels, ... short words that ensure the identification of the disorganized data. The
                 same Labels can be used on different types of data inside Multipass.
@@ -305,9 +360,10 @@ import SponsorsGroup from './SponsorsGroup.vue'
           </div>
 
           <div class='flex flex-col'>
-            <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900 dark:text-gray-300'>
+            <dt
+              class='flex items-center gap-x-3 text-base font-semibold leading-7 text-neutral-900 dark:text-neutral-300'>
               <svg
-                class='h-5 w-5 flex-none text-indigo-600 dark:text-amber-800'
+                class='h-5 w-5 flex-none text-red-800 dark:text-amber-800'
                 fill='currentColor'
                 aria-hidden='true'
                 xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 512'>
@@ -317,33 +373,42 @@ import SponsorsGroup from './SponsorsGroup.vue'
               </svg>
               Taxonomy: Types
             </dt>
-            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600 dark:text-gray-400'>
+            <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-neutral-600 dark:text-neutral-400'>
               <p class='flex-auto'>
                 With Types, you can group your data into categories. For example, you can create a type "Author" and
                 then create a Contact with the name "Terry Pratchett".
               </p>
             </dd>
           </div>
-
         </dl>
       </div>
     </div>
   </section>
 
 
-  <section class='py-24 sm:py-32 sm:mt-20 md:mt-24 mt-16'>
+  <section class='pb-24 sm:pb-32 '>
     <div class='mx-auto max-w-7xl px-6 lg:px-8'>
       <div class='mx-auto max-w-2xl sm:text-center'>
-        <h2 class='text-base font-semibold leading-7 text-indigo-600 dark:text-amber-800'>For Geeks only..</h2>
-        <p class='mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-300 sm:text-4xl'>How does it work?</p>
+        <div class='mt-16 flow-root sm:mt-24 mb-12'>
+
+          <div class='-m-2 rounded-xl lg:-m-4  lg:p-4 mb-4'>
+            <div class='dark:shadow-lg dark:md:rounded-3xl dark:bg-neutral-200 dark:p-4'>
+             <img src='images/assembly-line.svg' alt='Assembly line illustration'>
+            </div>
+          </div>
+        </div>
+        <h2 class='text-base font-semibold leading-7 text-red-800 dark:text-amber-800'>For Geeks only..?</h2>
+        <p class='mt-2 text-3xl font-bold tracking-tight text-neutral-900 dark:text-neutral-300 sm:text-4xl'>How does it
+          work?</p>
       </div>
     </div>
     <div class='mx-auto mt-16 max-w-7xl px-6  lg:px-8'>
       <dl
-        class='mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base leading-7 text-gray-600 dark:text-gray-400 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16'>
+        class='mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base leading-7 text-neutral-600 dark:text-neutral-400 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16'>
 
         <div class='flex flex-col'>
-          <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900 dark:text-gray-300'>
+          <dt
+            class='flex items-center gap-x-3 text-base font-semibold leading-7 text-neutral-900 dark:text-neutral-300'>
             <svg
               class='h-5 w-5 flex-none text-green-600 dark:text-amber-800'
               fill='currentColor'
@@ -355,7 +420,7 @@ import SponsorsGroup from './SponsorsGroup.vue'
             </svg>
             User Focussed Development
           </dt>
-          <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600 dark:text-gray-400'>
+          <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-neutral-600 dark:text-neutral-400'>
             <p class='flex-auto'>
               We are working with a closed group of people. This allows us to focus on the right things. We call them
               the Experts.
@@ -365,7 +430,8 @@ import SponsorsGroup from './SponsorsGroup.vue'
 
 
         <div class='flex flex-col'>
-          <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900 dark:text-gray-300'>
+          <dt
+            class='flex items-center gap-x-3 text-base font-semibold leading-7 text-neutral-900 dark:text-neutral-300'>
             <svg
               class='h-5 w-5 flex-none text-red-600 dark:text-amber-800'
               fill='currentColor'
@@ -377,7 +443,7 @@ import SponsorsGroup from './SponsorsGroup.vue'
             </svg>
             Advanced security
           </dt>
-          <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600 dark:text-gray-400'>
+          <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-neutral-600 dark:text-neutral-400'>
             <p class='flex-auto'>
               Each Team has his own seperate database + S3 space out of the box. Currently we also support 2FA and
               session management.
@@ -386,7 +452,8 @@ import SponsorsGroup from './SponsorsGroup.vue'
         </div>
 
         <div class='flex flex-col'>
-          <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900 dark:text-gray-300'>
+          <dt
+            class='flex items-center gap-x-3 text-base font-semibold leading-7 text-neutral-900 dark:text-neutral-300'>
             <svg
               class='h-5 w-5 flex-none text-blue-600 dark:text-amber-800'
               fill='currentColor'
@@ -398,7 +465,7 @@ import SponsorsGroup from './SponsorsGroup.vue'
             </svg>
             Powerful API .. in the making
           </dt>
-          <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600 dark:text-gray-400'>
+          <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-neutral-600 dark:text-neutral-400'>
             <p class='flex-auto'>
               At this time our public API is limited. However we are currently slowly opening up more of
               our internally used routes.
@@ -407,9 +474,10 @@ import SponsorsGroup from './SponsorsGroup.vue'
         </div>
 
         <div class='flex flex-col'>
-          <dt class='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900 dark:text-gray-300'>
+          <dt
+            class='flex items-center gap-x-3 text-base font-semibold leading-7 text-neutral-900 dark:text-neutral-300'>
             <svg
-              class='h-5 w-5 flex-none text-indigo-600 dark:text-amber-800'
+              class='h-5 w-5 flex-none text-red-800 dark:text-amber-800'
               fill='currentColor'
               aria-hidden='true'
               xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'>
@@ -419,7 +487,7 @@ import SponsorsGroup from './SponsorsGroup.vue'
             </svg>
             Database backups
           </dt>
-          <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600 dark:text-gray-400'>
+          <dd class='mt-4 flex flex-auto flex-col text-base leading-7 text-neutral-600 dark:text-neutral-400'>
             <p class='flex-auto'>
               Every night, Handles our internal Bot, makes a copy of each database to a secret bucket on S3. Backups are
               kept with a x day retention period.
@@ -435,223 +503,23 @@ import SponsorsGroup from './SponsorsGroup.vue'
 </template>
 
 <style scoped>
-section {
-  padding: 42px 32px;
-}
+
 .soft {
   background: var(--vt-c-bg-soft);
 }
 
-#hero {
-  padding: 96px 32px;
-  text-align: center;
-}
-
-.tagline {
-  font-size: 76px;
-  line-height: 1.25;
-  font-weight: 900;
-  letter-spacing: -1.5px;
-  max-width: 960px;
-  margin: 0px auto;
-}
-
-html:not(.dark) .accent,
-.dark .accent {
-  background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
+html.dark .accent {
+  background: -webkit-linear-gradient(315deg, #a11b29 25%, #f9af3c);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.description {
-  max-width: 960px;
-  line-height: 1.5;
-  color: var(--vt-c-text-2);
-  transition: color 0.5s;
-  font-size: 22px;
-  margin: 24px auto 40px;
-}
-
-.actions a {
-  font-size: 16px;
-  display: inline-block;
-  background-color: var(--vt-c-bg-mute);
-  padding: 8px 18px;
-  font-weight: 500;
-  border-radius: 8px;
-  transition: background-color 0.5s, color 0.5s;
-}
-
-.actions .get-started {
-  margin-right: 18px;
-}
-
-.actions .icon {
-  display: inline;
-  position: relative;
-  top: -1px;
-  margin-left: 2px;
-  fill: currentColor;
-  transition: transform 0.2s;
-}
-
-.actions .get-started:hover {
-  transition-duration: 0.2s;
-}
-
-.actions .get-started:hover .icon {
-  transform: translateX(2px);
-}
-
-.actions .get-started,
-.actions .setup {
-  color: var(--vt-c-text-code);
-}
-
-.actions .get-started:hover,
-.actions .setup:hover {
-  background-color: var(--vt-c-gray-light-4);
-  transition-duration: 0.2s;
-}
-
-.dark .actions .get-started:hover,
-.dark .actions .setup:hover {
-  background-color: var(--vt-c-gray-dark-3);
-}
-
-#special-sponsor {
-  border-top: 1px solid var(--vt-c-divider-light);
-  border-bottom: 1px solid var(--vt-c-divider-light);
-  padding: 12px 24px;
-  display: flex;
-  align-items: center;
-}
-
-#special-sponsor span {
-  color: var(--vt-c-text-2);
-  font-weight: 500;
-  font-size: 13px;
-  vertical-align: middle;
-  flex: 1;
-}
-
-#special-sponsor span:first-child {
-  text-align: right;
-}
-
-#special-sponsor a {
-  display: flex;
-  justify-content: center;
-  padding: 0 24px;
-}
-
-#special-sponsor img {
-  height: 42px;
-  margin: -6px 0;
-}
-
-.dark #special-sponsor img {
-  filter: grayscale(1) invert(1);
-}
-
-#highlights {
-  max-width: 960px;
-  margin: 0px auto;
-  color: var(--vt-c-text-2);
-}
-
-#highlights h2 {
-  font-weight: 600;
-  font-size: 20px;
-  letter-spacing: -0.4px;
-  color: var(--vt-c-text-1);
-  transition: color 0.5s;
-  margin-bottom: 0.75em;
-}
-
-#highlights p {
-  font-weight: 400;
-  font-size: 15px;
-}
-
-#highlights .vt-box {
-  background-color: transparent;
-}
-
-#sponsors {
-  max-width: 900px;
-  margin: 0px auto;
-}
-
-#sponsors h2 {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 1em;
-}
-
-#sponsors .sponsor-container {
-  margin-bottom: 3em;
-}
-
-@media (max-width: 960px) {
-  .tagline {
-    font-size: 64px;
-    letter-spacing: -0.5px;
-  }
-
-  .description {
-    font-size: 18px;
-    margin-bottom: 48px;
-  }
-}
-
-@media (max-width: 768px) {
-  .tagline {
-    font-size: 48px;
-    letter-spacing: -0.5px;
-  }
-}
-
-@media (max-width: 576px) {
-  #hero {
-    padding: 56px 32px;
-  }
-
-  .description {
-    font-size: 16px;
-    margin: 18px 0 30px;
-  }
-
-  #special-sponsor {
-    flex-direction: column;
-  }
-
-  #special-sponsor img {
-    height: 36px;
-    margin: 8px 0;
-  }
-
-  #special-sponsor span {
-    text-align: center !important;
-  }
-
-  #highlights h3 {
-    margin-bottom: 0.6em;
-  }
-
-  #highlights .vt-box {
-    padding: 20px 36px;
-  }
-
-  .actions a {
-    margin: 18px 0;
-  }
-}
-
-@media (max-width: 370px) {
-  .tagline {
-    font-size: 36px;
-  }
+html:not(.dark) .accent,
+.dark .accent {
+  background: -webkit-linear-gradient(315deg, #a11b29 25%, #f9af3c);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 </style>
