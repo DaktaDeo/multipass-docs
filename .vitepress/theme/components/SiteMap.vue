@@ -59,7 +59,7 @@ const items = nav
               <small>Discover, Define, Develop, Deliver, Evolve –repeat</small>
             </p>
             <p class='text-gray-500 text-base leading-6 mt-2'>
-              Multipass is een product van <a href='https://daktadeo.be'>DaktaDeo.</a>
+              Multipass is made by <a href='https://daktadeo.be'>DaktaDeo.</a>
             </p>
             <div class='flex space-x-6'>
               <a href='https://www.facebook.com/DaktaDeo.be/'
@@ -148,10 +148,10 @@ const items = nav
   background: var(--vt-c-bg-soft);
 }
 #sitemap h3 {
-  @apply text-gray-900 font-semibold leading-6 text-gray-900 uppercase tracking-wider text-sm;
+  @apply text-gray-900 font-semibold leading-6 text-gray-900 uppercase tracking-wider text-sm dark:text-gray-400 ;
 }
 
 #sitemap .vt-link {
- @apply text-gray-500 hover:text-gray-900 text-sm;
+ @apply text-gray-500 hover:text-gray-900 text-sm dark:text-gray-400 dark:hover:text-gray-300;
 }
 </style>
