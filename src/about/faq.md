@@ -12,11 +12,40 @@ The idea of building something like Multipass started in 2011. In that year [Vee
 
 Multipass's development is primarily privately funded by DaktaDeo & friends.
 
+## How does Multipass work? in a nutshell {#how-it-works}
+
+Multipass is a SaaS application. It runs on our own private Cloud servers, hosted on Digital Ocean.
+
+With 1 account you can access and create multiple Teams.
+
+Each Team has its own separate database on our managed database cluster.
+
+
+## How much does Multipass cost? {#how-much-does-Multipass-cost}
+We use a usage-based, block based subscription. Each Team is billed according to usage, not the number of accounts that have access to it. The more data you consume, the higher your subscription will be.
+
+This revenue model allows for a Team of 25 people to work together on a small set of data, keeping the costs low and the ROI high. While another Team of 1 with thousands of records paying their fair share. This is our view of a fair billing system.
+
+The exact pricing is currently being tested during our closed beta period.
+
+## Why isn't Multipass free? {#why-isnt-Multipass-free}
+If you aren't paying for a product, you are the product. 
+
+That's why other products offer a free tier or are totally free, because they make enough money off the personal data their customers give them by using their app. We charge a small and sustainable fee for Multipass because our business model is selling software, not data (these are very different business models). Our customers gladly pay for our service because they know they have a voice in the development process, their data is safe with us and their clients' privacy is protected. 
+
+As a profitable business, we're in this for the long haul.
+
 ## What license does Multipass use? {#what-license-does-Multipass-use}
 
 Multipass is closed source.
 
 However, we like to give back to the open source community as much as we can. We have open sourced a number of our internal tools and libraries, and we are also working on open sourcing more of our code in the future.
+
+## Why isn't Multipass open source? {#why-isnt-Multipass-open-source}
+
+We believe that open source is a great way to build software. However, we also believe that open source is not always the right way to build a sustainable business. We have invested a lot of time into building Multipass, and we want to make sure that we can continue to invest in it for years to come.
+
+That said: things change. We are always open to the idea of open sourcing Multipass in the future _if_ we can garantuee that we can continue to build great things & eat. 
 
 ## What are the system requirements for Multipass? {#what-are-the-system-requirements-for-Multipass}
 Multipass is a SaaS application. This means it runs in your favorite browser! No need to install or download updates and your data is always available where you have internet.
