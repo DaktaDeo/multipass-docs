@@ -1,4 +1,4 @@
-# Terms and definitions 
+# Dictionary 
 
 ## Account
 Your username and password for the Mutlipass application. You have 1 account for everything that is Multipass aka you log in with this account and have instant access to all your Teams.
