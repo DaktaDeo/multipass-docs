@@ -129,42 +129,42 @@ export const sidebar: ThemeConfig['sidebar'] = {
       text: 'Getting Started',
       items: [
         { text: 'Introduction', link: '/guide/introduction' },
-        {
-          text: 'Quick Start',
-          link: '/guide/quick-start'
-        }
-      ]
-    },
-    {
-      text: 'Essentials',
-      items: [
         // {
-        //   text: 'Creating an Application',
-        //   link: '/guide/essentials/application'
-        // },
-        // {
-        //   text: 'App Basics',
-        //   link: '/guide/essentials/component-basics'
+        //   text: 'Quick Start',
+        //   link: '/guide/quick-start'
         // }
       ]
     },
-    {
-      text: 'Apps In-Depth',
-      items: [
-        {
-          text: 'Contacts',
-          link: '/guide/app/contacts'
-        },
-        {
-          text: 'Humans',
-          link: '/guide/app/humans'
-        },
-        {
-          text: 'Sales',
-          link: '/guide/app/sales'
-        },
-      ]
-    },
+    // {
+    //   text: 'Essentials',
+    //   items: [
+    //     // {
+    //     //   text: 'Creating an Application',
+    //     //   link: '/guide/essentials/application'
+    //     // },
+    //     // {
+    //     //   text: 'App Basics',
+    //     //   link: '/guide/essentials/component-basics'
+    //     // }
+    //   ]
+    // },
+    // {
+    //   text: 'Apps In-Depth',
+    //   items: [
+    //     {
+    //       text: 'Contacts',
+    //       link: '/guide/app/contacts'
+    //     },
+    //     {
+    //       text: 'Humans',
+    //       link: '/guide/app/humans'
+    //     },
+    //     {
+    //       text: 'Sales',
+    //       link: '/guide/app/sales'
+    //     },
+    //   ]
+    // },
     // {
     //   text: 'Best Practices',
     //   items: [
