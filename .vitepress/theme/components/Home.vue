@@ -98,7 +98,7 @@ import SponsorsGroup from './SponsorsGroup.vue'
           class='absolute inset-y-0 right-1/2 -z-10 -mr-10 w-[200%] skew-x-[-30deg] bg-white shadow-xl shadow-red-800/10 ring-1 ring-indigo-50 md:-mr-20 lg:-mr-36'
           aria-hidden='true'></div>
         <div class='dark:shadow-lg dark:md:rounded-3xl dark:bg-neutral-700 dark:p-4'>
-          <img class='object-cover w-full h-full rounded-3xl' src='images/data-rocket.svg' alt='A data rocket' />
+          <img class='object-cover w-full h-full rounded-3xl' src='/images/data-rocket.svg' alt='A data rocket' />
         </div>
       </div>
     </div>
@@ -298,7 +298,7 @@ import SponsorsGroup from './SponsorsGroup.vue'
       <div class='mx-auto max-w-2xl lg:text-center'>
         <div class='mt-16 flow-root sm:mt-24 mb-12'>
           <div class='-m-2 rounded-xl lg:-m-4  lg:p-4'>
-            <img src='images/human-growing.svg' alt='A human growing'>
+            <img src='/images/human-growing.svg' alt='A human growing'>
           </div>
         </div>
         <h2 class='text-base font-semibold leading-7 text-red-800 dark:text-amber-800'>Features</h2>
@@ -393,7 +393,7 @@ import SponsorsGroup from './SponsorsGroup.vue'
 
           <div class='-m-2 rounded-xl lg:-m-4  lg:p-4 mb-4'>
             <div class='dark:shadow-lg dark:md:rounded-3xl dark:bg-neutral-200 dark:p-4'>
-             <img src='images/assembly-line.svg' alt='Assembly line illustration'>
+             <img src='/images/assembly-line.svg' alt='Assembly line illustration'>
             </div>
           </div>
         </div>
