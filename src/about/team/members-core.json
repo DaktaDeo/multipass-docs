@@ -36,13 +36,24 @@
     "sponsor": false
   },
   {
+    "name": "Arlette Acke",
+    "title": "Quality Control",
+    "company": "daktadeo.be",
+    "location": "Belgium",
+    "languages": ["Dutch", "English", "French", "German"],
+    "socials": {
+      "github": "LettekeA"
+    },
+    "sponsor": false
+  },
+  {
     "name": "Dries Ogenae",
     "title": "Consultant",
     "company": "dobs.be",
     "location": "Belgium",
     "languages": ["Dutch", "English"],
     "socials": {
-      "github": ""
+      "github": "DriesOngenae"
     },
     "avatarPic": "https://ui-avatars.com/api/?background=random&name=Dries+Ogenae",
     "sponsor": false
