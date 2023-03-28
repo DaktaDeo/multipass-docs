@@ -3,7 +3,7 @@ import './styles/tailwind.postcss'
 
 import { h, App } from 'vue'
 import { VPTheme } from '@daktadeo/theme'
-import PreferenceSwitch from './components/PreferenceSwitch.vue'
+// import PreferenceSwitch from './components/PreferenceSwitch.vue'
 import {
   preferComposition,
   preferSFC,
@@ -18,7 +18,7 @@ export default Object.assign({}, VPTheme, {
     // @ts-ignore
     return h(VPTheme.Layout, null, {
       // banner: () => h(Banner),
-      'sidebar-top': () => h(PreferenceSwitch),
+      // 'sidebar-top': () => h(PreferenceSwitch),
       // 'aside-mid': () => h(SponsorsAside)
     })
   },
