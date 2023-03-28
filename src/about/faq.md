@@ -3,7 +3,7 @@
 ## What is Multipass? {#what-is-Multipass}
 Multipass is a new Bussiness Intelligence App with a Twist. 😉
 
-Multipass takes the pain and hassle out of managing a small bussiness and can even be used to manage you association. It does not matter if you want to [manage your own Team](/apps/humans/README.md), have [a full fledged Boat Price Calculator](/apps/sales/cpq.md), [organize a Soccer Tournament](/apps/tournaments/README.md) or just have a tool that handles [your CRM data with flexibility](/apps/contacts/README.md)- Multipass is the solution for you.
+Multipass takes the pain and hassle out of managing a small bussiness and can even be used to manage you association. It does not matter if you want to [manage your own Team](/guide/apps/humans/introduction), have [a full fledged Boat Price Calculator](/guide/apps/sales/cpq.md), [organize a Soccer Tournament](/guide/apps/tournaments/introduction) or just have a tool that handles [your CRM data with flexibility](/guide/apps/contacts/introduction)- Multipass is the solution for you.
 
 
 ## Who maintains Multipass? {#who-maintains-Multipass}

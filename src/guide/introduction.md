@@ -19,13 +19,13 @@ Multipass takes the pain and hassle out of managing a small bussiness and can ev
 
 After creating you Team you have instant access to all the available apps, including:
 
-- [Calendar Events](/app/calendar-events)
-- [Contacts](/app/contacts)
-- [Media](/app/media)
-- [Humans](/app/humans)
-- [Products](/app/products)
-- [Sales](/app/sales)
-- [Tournaments](/app/tournaments)
+- [Calendar Events](apps/calendar-events/introduction)
+- [Contacts](apps/contacts/introduction)
+- [Media](apps/media/introduction)
+- [Humans](apps/humans/introduction)
+- [Products](apps/products/introduction)
+- [Sales](apps/sales/introduction)
+- [Tournaments](apps/tournaments/introduction)
 
 With them you can manage a lot of things like: Clients, Suppliers, Employees, Invoices, Payments, Products, Assembled Products, Product Configurations, Tournaments, Matches, Teams,  etc.
 
