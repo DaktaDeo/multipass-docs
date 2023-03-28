@@ -6,6 +6,10 @@ This is a list of all the open source packages we use in our ecosystem. We are v
 Multipass wouldn't be possible without these open-source software, packages and libraries.
 We will pay it Forward by contributing to these projects as much as we can.
 
+:::info State
+July 2021
+:::
+
 ## Libraries
 - PHP
 - Javascript
@@ -99,4 +103,4 @@ We will pay it Forward by contributing to these projects as much as we can.
 - vuex
 - xlsx
 
-state: july 2021
+

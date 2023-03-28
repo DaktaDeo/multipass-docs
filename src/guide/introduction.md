@@ -39,11 +39,32 @@ We are happy to help you get started!
 
 ## How it works {#how-it-works}
 
-Multipass is a SaaS application. It runs on our own private Cloud servers, hosted on Digital Ocean.
+Multipass is a SaaS application. 
 
-With 1 account you can access and create multiple Teams.
+### From a user perspective:
+- With 1 account you can access and create multiple Teams
+- You can change certain settings based on the Team, like the nickname, email, etc.
+- Each Team has its own separate database
+- Each Team has its own set of enabled Apps
+- All Apps are available to all Teams
+- Each Team has its own set of Users (= people who can log in to the Team)
+- Each Team has its own settings, like profile image, language, etc.
+- Each User has its own preferences, like language (wip), darkmode (wip), etc
 
-Each Team has its own separate database on our managed database cluster.
+### Technically:
+- It runs on our own private Cloud servers, hosted on Digital Ocean
+- We use a managed database (MySQL) cluster, also hosted on Digital Ocean
+- Databases are backed up daily, on S3
+- Media is uploaded to S3 buckets, also hosted on Digital Ocean
+- All Media can be accessed via a CDN, also hosted on Digital Ocean
+- We use a custom built API to communicate with the frontend
+- The frontend is built with Vue.js, backend is built with Laravel
+- We use Forge to manage our servers, Envoyer to deploy, and Laravel Horizon to manage our queues
+- Search is powered by Algolia
+- (all) Errors are captured, sent to Flare, and reported to our Slack channel
+- Currently we use a custom uptime monitoring system, but we are looking into using a 3rd party service for this
+- we use a bunch of [opensource](/about/opensource) packages
+
 
 ## How much does Multipass cost? {#how-much-does-Multipass-cost}
 We use a usage-based, block based subscription. Each Team is billed according to usage, not the number of accounts that have access to it. The more data you consume, the higher your subscription will be.
