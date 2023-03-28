@@ -100,7 +100,7 @@ const nav: ThemeConfig['nav'] = [
       //   text: 'Community Guide',
       //   link: '/about/community-guide'
       // },
-      // { text: 'Code of Conduct', link: '/about/coc' },
+      { text: 'Code of Conduct', link: '/about/coc' },
       { text: 'Open Source', link: '/about/opensource' },
     ]
   },
