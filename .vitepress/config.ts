@@ -12,7 +12,7 @@ const nav: ThemeConfig['nav'] = [
     activeMatch: `^/(guide|style-guide|cookbook|examples)/`,
     items: [
       { text: 'Guide', link: '/guide/introduction' },
-      { text: 'Examples', link: '/examples/' },
+      // { text: 'Examples', link: '/examples/' },
       { text: 'Quick Start', link: '/guide/quick-start' },
     ]
   },
@@ -37,8 +37,8 @@ const nav: ThemeConfig['nav'] = [
       // {
       //   text: 'Resources',
       //   items: [
-      //     { text: 'Partners', link: '/partners/' },
-      //     { text: 'Themes', link: '/ecosystem/themes' },
+      //     // { text: 'Partners', link: '/partners/' },
+      //     // { text: 'Community', link: '/ecosystem/themes' },
       //     // { text: 'Jobs', link: 'https://vuejobs.com/?ref=vuejs' },
       //     // { text: 'T-Shirt Shop', link: 'https://vue.threadless.com/' }
       //   ]
@@ -72,6 +72,10 @@ const nav: ThemeConfig['nav'] = [
           //   link: 'https://discord.com/invite/HBherRA'
           // },
           {
+            text: 'Post an issue',
+            link: 'https://github.com/daktadeo/multipass/issues'
+          },
+          {
             text: 'GitHub Discussions',
             link: 'https://github.com/daktadeo/multipass/discussions'
           },
@@ -96,10 +100,10 @@ const nav: ThemeConfig['nav'] = [
       { text: 'FAQ', link: '/about/faq' },
       { text: 'Team', link: '/about/team' },
       { text: 'Releases', link: '/about/releases' },
-      // {
-      //   text: 'Community Guide',
-      //   link: '/about/community-guide'
-      // },
+      {
+        text: 'Community Guide',
+        link: '/about/community-guide'
+      },
       { text: 'Code of Conduct', link: '/about/coc' },
       { text: 'Open Source', link: '/about/opensource' },
     ]
@@ -222,15 +226,15 @@ export default defineConfigWithTheme<ThemeConfig>({
         'utf-8'
       )
     ],
-    [
-      'script',
-      {
-        src: 'https://cdn.usefathom.com/script.js',
-        'data-site': 'XNOLWPLB',
-        'data-spa': 'auto',
-        defer: ''
-      }
-    ],
+    // [
+    //   'script',
+    //   {
+    //     src: 'https://cdn.usefathom.com/script.js',
+    //     'data-site': 'XNOLWPLB',
+    //     'data-spa': 'auto',
+    //     defer: ''
+    //   }
+    // ],
   ],
 
   themeConfig: {
