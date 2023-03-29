@@ -11,22 +11,27 @@ const data = await Promise.all(
   articles.map(async (article) => {
     const file = matter.read(`./src/blog/posts/${article}`, {
       excerpt: true,
-      excerpt_separator: "<!-- excerpt -->",
+      excerpt_separator: '<!-- excerpt -->',
     });
     const { data, excerpt, path } = file;
-    const contents = removeMd(excerpt)
-      .trim()
-      .split(/\r\n|\n|\r/);
 
     //make the image path absolute in the data object if it exists
     if (data.image) {
       data.image = data.image.replace('../', '/blog/');
     }
 
+    const contents = removeMd(excerpt)
+      .trim()
+      .split(/\r\n|\n|\r/);
     return {
       ...data,
-      path: '/'+path.replace('./src/', '').replace(/\.md$/, '.html'),
-      excerpt
+      title: contents[0].replace(/\s{2,}/g, '').trim(),
+      path: '/'+ path.replace('./src/', '').replace(/\.md$/, '.html'),
+      excerpt: contents
+        .slice(1)
+        .join('')
+        .replace(/\s{2,}/g, '')
+        .trim(),
     };
   })
 );

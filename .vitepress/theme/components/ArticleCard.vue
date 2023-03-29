@@ -32,7 +32,7 @@ const truncateText = (text: string, length: number) => {
   </div>
   <div class="max-w-xl">
     <div class="mt-8 flex items-center gap-x-4 text-xs">
-      <time :datetime="date" class="text-neutral-500">{{ date }}</time>
+<!--      <time :datetime="date" class="text-neutral-500">{{ date }}</time>-->
       <span class="relative z-10 rounded-md bg-sky-300 py-1.5 px-3 font-medium text-sky-900">{{ type }}</span>
       <span class="relative z-10 rounded-md bg-orange-200 py-1.5 px-3 font-medium text-orange-900">{{ language }}</span>
     </div>
@@ -45,7 +45,7 @@ const truncateText = (text: string, length: number) => {
       </h3>
       <p class="mt-5 text-sm leading-6 text-neutral-600 line-clamp-3">{{ excerpt }}</p>
     </div>
-    <div class="relative mt-8 flex items-center gap-x-4">
+    <div class="relative mt-2 flex items-center gap-x-4">
       <div class="text-sm leading-6">
         <p class="font-semibold text-neutral-600">
                   <span v-if='hasAuthor'>

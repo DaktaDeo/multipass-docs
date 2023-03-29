@@ -5,3 +5,26 @@
 @import "./inline-demo.css";
 @import "./utilities.css";
 @import "./style-guide.css";
+
+h1, h2, h3 {
+  @apply text-gray-900 dark:text-neutral-300;
+}
+
+.vt-doc.blog {
+  @apply prose-lg;
+}
+
+.vt-doc.blog h1{
+  @apply text-4xl text-center mb-16;
+}
+
+.vt-doc.blog  img {
+  @apply rounded-lg shadow-xl ring-1 ring-black ring-opacity-5 mx-auto;
+}
+
+.vt-doc.blog img, .vt-doc.blog video {
+  max-width: 100%;
+  height: auto;
+}
+
+
