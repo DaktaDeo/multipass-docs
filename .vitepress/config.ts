@@ -6,6 +6,8 @@ import baseConfig from '@daktadeo/theme/config'
 import { headerPlugin } from './headerMdPlugin'
 const isProd = process.env.NODE_ENV === 'production'
 
+import blog from './data/blog.json'
+
 const nav: ThemeConfig['nav'] = [
   {
     text: 'Docs',
@@ -82,15 +84,15 @@ const nav: ThemeConfig['nav'] = [
           // { text: 'DEV Community', link: 'https://dev.to/t/vue' }
         ]
       },
-      // {
-      //   text: 'News',
-      //   items: [
-      //     { text: 'Blog', link: 'https://blog.vuejs.org/' },
-      //     { text: 'Twitter', link: 'https://twitter.com/vuejs' },
-      //     { text: 'Events', link: 'https://events.vuejs.org/' },
-      //     { text: 'Newsletters', link: '/ecosystem/newsletters' }
-      //   ]
-      // },
+      {
+        text: 'News',
+        items: [
+          { text: 'Blog', link: '/blog/index' },
+          // { text: 'Twitter', link: 'https://twitter.com/vuejs' },
+          // { text: 'Events', link: 'https://events.vuejs.org/' },
+          // { text: 'Newsletters', link: '/ecosystem/newsletters' }
+        ]
+      },
     ]
   },
   {
@@ -240,6 +242,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   themeConfig: {
     nav,
     sidebar,
+    blog,
     // Placeholder of the i18n config for @vuejs-translations.
     // i18n,
 
