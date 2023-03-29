@@ -40,7 +40,7 @@ h1, h2, h3 {
 }
 
 .container.blogpost .blog-hero div{
-  @apply relative isolate overflow-hidden pt-14 h-[20vh] md:h-[25vh] shadow-inner;
+  @apply relative isolate overflow-hidden pt-14 h-[25vh] shadow-inner max-h-36 md:max-h-60;
 }
 
 .container.blogpost .blog-hero div img{
