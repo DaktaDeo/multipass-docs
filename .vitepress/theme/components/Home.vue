@@ -98,7 +98,7 @@ import SponsorsGroup from './SponsorsGroup.vue'
           class='absolute inset-y-0 right-1/2 -z-10 -mr-10 w-[200%] skew-x-[-30deg] bg-white shadow-xl shadow-red-800/10 ring-1 ring-indigo-50 md:-mr-20 lg:-mr-36'
           aria-hidden='true'></div>
         <div class='dark:shadow-lg dark:md:rounded-3xl dark:bg-neutral-700 dark:p-4'>
-          <img class='object-cover w-full h-full rounded-3xl' src='/images/data-rocket.svg' alt='A data rocket' />
+          <img class='object-cover w-full h-full rounded-3xl' src='https://cdn.beta.multipass.rocks/drive/meto-ligunai/9/3/c/d95805bb-fcdc-4eb9-beb9-7c9e91d18642.svg' alt='A data rocket' />
         </div>
       </div>
     </div>
@@ -123,8 +123,8 @@ import SponsorsGroup from './SponsorsGroup.vue'
     </div>
     <div class='relative overflow-hidden pt-16'>
       <div class='mx-auto max-w-7xl px-6 lg:px-8'>
-        <img src='https://beta.multipass.rocks/storage/media/2021/08/screenshot-1-opt.png' alt='App screenshot v2020'
-             class='mb-[-12%] rounded-xl shadow-2xl ring-1 ring-neutral-900/10' width='2432' height='1442'>
+        <img class='mb-[-12%] rounded-xl shadow-2xl ring-1 ring-neutral-900/10' alt='App screenshot v2020'
+             srcset="https://cdn.beta.multipass.rocks/drive/meto-ligunai/b/a/4/responsive-images/aefa666c-9416-4f6c-a209-34bb0fd60cfe___media_library_original_1200_700.png 1200w, https://cdn.beta.multipass.rocks/drive/meto-ligunai/b/a/4/responsive-images/aefa666c-9416-4f6c-a209-34bb0fd60cfe___media_library_original_1003_585.png 1003w, https://cdn.beta.multipass.rocks/drive/meto-ligunai/b/a/4/responsive-images/aefa666c-9416-4f6c-a209-34bb0fd60cfe___media_library_original_839_489.png 839w, https://cdn.beta.multipass.rocks/drive/meto-ligunai/b/a/4/responsive-images/aefa666c-9416-4f6c-a209-34bb0fd60cfe___media_library_original_702_410.png 702w, https://cdn.beta.multipass.rocks/drive/meto-ligunai/b/a/4/responsive-images/aefa666c-9416-4f6c-a209-34bb0fd60cfe___media_library_original_587_342.png 587w, https://cdn.beta.multipass.rocks/drive/meto-ligunai/b/a/4/responsive-images/aefa666c-9416-4f6c-a209-34bb0fd60cfe___media_library_original_491_286.png 491w, data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgMTIwMCA3MDAiPgoJPGltYWdlIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjcwMCIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9qcGVnO2Jhc2U2NCwvOWovNEFBUVNrWkpSZ0FCQVFFQVlBQmdBQUQvL2dBN1ExSkZRVlJQVWpvZ1oyUXRhbkJsWnlCMk1TNHdJQ2gxYzJsdVp5QkpTa2NnU2xCRlJ5QjJPREFwTENCeGRXRnNhWFI1SUQwZ09UQUsvOXNBUXdBREFnSURBZ0lEQXdNREJBTURCQVVJQlFVRUJBVUtCd2NHQ0F3S0RBd0xDZ3NMRFE0U0VBME9FUTRMQ3hBV0VCRVRGQlVWRlF3UEZ4Z1dGQmdTRkJVVS85c0FRd0VEQkFRRkJBVUpCUVVKRkEwTERSUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVLzhBQUVRZ0FFd0FnQXdFUkFBSVJBUU1SQWYvRUFCOEFBQUVGQVFFQkFRRUJBQUFBQUFBQUFBQUJBZ01FQlFZSENBa0tDLy9FQUxVUUFBSUJBd01DQkFNRkJRUUVBQUFCZlFFQ0F3QUVFUVVTSVRGQkJoTlJZUWNpY1JReWdaR2hDQ05Dc2NFVlV0SHdKRE5pY29JSkNoWVhHQmthSlNZbktDa3FORFUyTnpnNU9rTkVSVVpIU0VsS1UxUlZWbGRZV1ZwalpHVm1aMmhwYW5OMGRYWjNlSGw2ZzRTRmhvZUlpWXFTazVTVmxwZVltWnFpbzZTbHBxZW9xYXF5czdTMXRyZTR1YnJDdzhURnhzZkl5Y3JTMDlUVjF0ZlkyZHJoNHVQazVlYm42T25xOGZMejlQWDI5L2o1K3YvRUFCOEJBQU1CQVFFQkFRRUJBUUVBQUFBQUFBQUJBZ01FQlFZSENBa0tDLy9FQUxVUkFBSUJBZ1FFQXdRSEJRUUVBQUVDZHdBQkFnTVJCQVVoTVFZU1FWRUhZWEVUSWpLQkNCUkNrYUd4d1Frak0xTHdGV0p5MFFvV0pEVGhKZkVYR0JrYUppY29LU28xTmpjNE9UcERSRVZHUjBoSlNsTlVWVlpYV0ZsYVkyUmxabWRvYVdwemRIVjJkM2g1ZW9LRGhJV0doNGlKaXBLVGxKV1dsNWlabXFLanBLV21wNmlwcXJLenRMVzJ0N2k1dXNMRHhNWEd4OGpKeXRMVDFOWFcxOWpaMnVMajVPWG01K2pwNnZMejlQWDI5L2o1K3YvYUFBd0RBUUFDRVFNUkFEOEErOFlQZ0g0WldJQTJncTc5aUhxUjMzd044TFd0bTB2Mk1IRkVyb2gyU0tHbGZCWHducW4zN1FBMW5HYllSVjl6YWovWjg4S1JNQ0xWYzFkMmFjcVBTNTBDRGlrdHhzemRWUU5wemduQW9xT3htMWRGYncxcGthUWIrdFpRS2kyMXFYTHFUYmZJbTRnVm9XWEp6a0dtdHlXWld2a2pTbnh4eFJNcUFlRDNMV1F5YzFuRWxic2g4Vk8wUjNJZHJZNmluTFk2cUNUbnFmL1oiPgoJPC9pbWFnZT4KPC9zdmc+ 32w" onload="window.requestAnimationFrame(function(){if(!(size=getBoundingClientRect().width))return;onload=null;sizes=Math.ceil(size/window.innerWidth*100)+&#039;vw&#039;;});" sizes="1px" src="https://cdn.beta.multipass.rocks/drive/meto-ligunai/b/a/4/aefa666c-9416-4f6c-a209-34bb0fd60cfe.png" width="1200" height="700">
         <div class='relative' aria-hidden='true'>
           <div class='absolute -inset-x-20 bottom-0 bg-gradient-to-t from-white pt-[7%] dark:from-neutral-900'></div>
         </div>
@@ -298,7 +298,7 @@ import SponsorsGroup from './SponsorsGroup.vue'
       <div class='mx-auto max-w-2xl lg:text-center'>
         <div class='mt-16 flow-root sm:mt-24 mb-12'>
           <div class='-m-2 rounded-xl lg:-m-4  lg:p-4'>
-            <img src='/images/human-growing.svg' alt='A human growing'>
+            <img src='https://cdn.beta.multipass.rocks/drive/meto-ligunai/5/2/e/f968d060-1fd2-4e25-9c38-7eaa217236b1.svg' alt='A human growing'>
           </div>
         </div>
         <h2 class='text-base font-semibold leading-7 text-red-800 dark:text-amber-800'>Features</h2>
@@ -393,7 +393,7 @@ import SponsorsGroup from './SponsorsGroup.vue'
 
           <div class='-m-2 rounded-xl lg:-m-4  lg:p-4 mb-4'>
             <div class='dark:shadow-lg dark:md:rounded-3xl dark:bg-neutral-200 dark:p-4'>
-             <img src='/images/assembly-line.svg' alt='Assembly line illustration'>
+             <img src='https://cdn.beta.multipass.rocks/drive/meto-ligunai/4/c/6/60cff2dd-b686-479b-b9e3-b5d36e4a14d3.svg' alt='Assembly line illustration'>
             </div>
           </div>
         </div>
