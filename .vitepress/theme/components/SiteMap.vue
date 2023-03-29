@@ -15,7 +15,7 @@ const items = nav
     <h2 id='footer-sitemap' class='sr-only'>Footer</h2>
     <div class='mx-auto max-w-7xl px-6 pb-8 pt-12 sm:pt-16 lg:px-8 lg:pt-24'>
 
-      <div class='xl:grid xl:grid-cols-3 xl:gap-0'>
+      <div class='xl:grid xl:grid-cols-3 xl:gap-0 grid-cols-1'>
         <div class='space-y-6 col-span-2 md:col-span-1'>
           <div class='h-10 fill-color inline-svg'>
             <a href='https://daktadeo.be'>
@@ -61,7 +61,7 @@ const items = nav
             Multipass is a product, made with &heartsuit; by <a href='https://daktadeo.be' target='_blank'>DaktaDeo.</a>
           </p>
         </div>
-        <div class='mt-16 grid grid-cols-4 gap-0 md:col-span-2 xl:mt-0'>
+        <div class='mt-16 grid md:grid-cols-4 md:gap-0 md:col-span-2 xl:mt-0 grid-cols-1 gap-8'>
           <div v-for='col in items' class='mt-2'>
             <h3>{{ col.text }}</h3>
             <ul role='list' class='mt-3 space-y-2'>

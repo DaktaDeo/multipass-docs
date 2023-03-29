@@ -14,12 +14,25 @@ h1, h2, h3 {
   @apply prose-lg;
 }
 
+.vt-doc.blog p{
+  @apply prose-lg;
+}
+
 .vt-doc.blog h1{
   @apply text-4xl text-center mb-16;
 }
+.vt-doc.blog h2{
+  @apply text-3xl text-neutral-500 pt-12;
+}
 
-.vt-doc.blog  img {
-  @apply rounded-lg shadow-xl ring-1 ring-black ring-opacity-5 mx-auto;
+.vt-doc.blog h3{
+  @apply text-xl text-neutral-400 pt-8;
+}
+
+.vt-doc.blog img {
+  @apply rounded-lg shadow-xl ring-1 ring-black ring-opacity-5;
+  display: block;
+  vertical-align: middle;
 }
 
 .vt-doc.blog img, .vt-doc.blog video {
