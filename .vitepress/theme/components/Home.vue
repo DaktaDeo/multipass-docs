@@ -1,6 +1,7 @@
 <script setup lang='ts'>
 import { onMounted } from 'vue'
 import SiteMap from './SiteMap.vue'
+import Blog from './Blog.vue'
 // import { load, data, base } from './sponsors'
 import SponsorsGroup from './SponsorsGroup.vue'
 
@@ -385,8 +386,7 @@ import SponsorsGroup from './SponsorsGroup.vue'
     </div>
   </section>
 
-
-  <section class='pb-24 sm:pb-32 '>
+  <section>
     <div class='mx-auto max-w-7xl px-6 lg:px-8'>
       <div class='mx-auto max-w-2xl sm:text-center'>
         <div class='mt-16 flow-root sm:mt-24 mb-12'>
@@ -498,6 +498,21 @@ import SponsorsGroup from './SponsorsGroup.vue'
       </dl>
     </div>
   </section>
+
+  <div class='mx-auto w-[50vw] md:w-[25vw] md:mb-32 mb-8 mt-8'>
+    <img src='/images/line.svg' alt='Line' class='saturate-0 opacity-25' aria-hidden='true' />
+  </div>
+
+  <section class='pb-24 sm:pb-32 '>
+    <div class='mx-auto max-w-7xl px-6 lg:px-8'>
+      <div class='mx-auto max-w-2xl text-center'>
+        <h2 class='text-base font-semibold leading-7 text-red-800 dark:text-amber-800'>From the blog</h2>
+        <p class='mt-2 text-3xl font-bold tracking-tight text-neutral-900 dark:text-neutral-300 sm:text-4xl'>Learn how your peers use Multipass to grow their business 🦆</p>
+      </div>
+        <Blog />
+    </div>
+  </section>
+
   <SiteMap />
   <!-- <NewsLetter /> -->
 </template>

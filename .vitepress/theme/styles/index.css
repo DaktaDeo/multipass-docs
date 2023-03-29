@@ -10,34 +10,42 @@ h1, h2, h3 {
   @apply text-gray-900 dark:text-neutral-300;
 }
 
-.vt-doc.blog {
-  @apply prose-lg;
+.container.blogpost {
+  @apply flex flex-col items-center justify-center px-0 py-8 prose-slate mx-auto md:mt-52 mt-32;
 }
 
-.vt-doc.blog p{
-  @apply prose-lg;
+.container.blogpost .content p{
+  @apply md:px-12 md:py-1.5 px-6;
 }
 
-.vt-doc.blog h1{
-  @apply text-4xl text-center mb-16;
+.container.blogpost .content h1{
+  @apply text-2xl md:text-4xl text-center md:mb-16 md:px-12;
 }
-.vt-doc.blog h2{
-  @apply text-3xl text-neutral-500 pt-12;
-}
-
-.vt-doc.blog h3{
-  @apply text-xl text-neutral-400 pt-8;
+.container.blogpost .content h2{
+  @apply text-xl md:text-3xl md:mb-8 md:px-12 text-neutral-500 px-6 pt-8 mt-0 md:mt-16;
 }
 
-.vt-doc.blog img {
-  @apply rounded-lg shadow-xl ring-1 ring-black ring-opacity-5;
+.container.blogpost .content h3{
+  @apply text-sm md:text-xl md:mb-16 md:px-12 text-neutral-400 px-6 pt-8;
+}
+
+.container.blogpost .content img {
+  @apply rounded-lg shadow-xl ring-1 ring-black ring-opacity-5 w-[200%] my-4;
   display: block;
   vertical-align: middle;
 }
 
-.vt-doc.blog img, .vt-doc.blog video {
-  max-width: 100%;
-  height: auto;
+.container.blogpost .blog-hero{
+  @apply absolute top-0 left-0 w-full h-full;
 }
+
+.container.blogpost .blog-hero div{
+  @apply relative isolate overflow-hidden pt-14 h-[20vh] md:h-[25vh] shadow-inner;
+}
+
+.container.blogpost .blog-hero div img{
+  @apply object-cover w-full h-full saturate-50 opacity-80;
+}
+
 
 

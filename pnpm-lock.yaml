@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@daktadeo/theme': ^2.2.3
+  '@daktadeo/theme': ^2.2.4
   '@tailwindcss/aspect-ratio': ^0.4.2
   '@tailwindcss/forms': ^0.5.3
   '@tailwindcss/typography': ^0.5.9
@@ -21,7 +21,7 @@ specifiers:
   vue: ^3.2.47
 
 dependencies:
-  '@daktadeo/theme': 2.2.3_ahv4xal3d4so6da4w2jgiudfwy
+  '@daktadeo/theme': 2.2.4_ahv4xal3d4so6da4w2jgiudfwy
   '@tailwindcss/aspect-ratio': 0.4.2_tailwindcss@3.2.7
   '@tailwindcss/forms': 0.5.3_tailwindcss@3.2.7
   '@tailwindcss/typography': 0.5.9_tailwindcss@3.2.7
@@ -178,8 +178,8 @@ packages:
       to-fast-properties: 2.0.0
     dev: false
 
-  /@daktadeo/theme/2.2.3_ahv4xal3d4so6da4w2jgiudfwy:
-    resolution: {integrity: sha512-GgVwMP91v/JDF9N4xkL5hWYT70sOGlBSrmol6Zj6WxnV5DHWWt7bL/ssu1eNePR8QP8w2AEpR/1kG00f621uzQ==}
+  /@daktadeo/theme/2.2.4_ahv4xal3d4so6da4w2jgiudfwy:
+    resolution: {integrity: sha512-z100hkK54U/5BMmCwHyzyEVsmNVbtuiBJcFHx8FGJksf7gqB8D0fpwvu0gw63AaUkdh7OjPG4yQLTmhGppJRwA==}
     peerDependencies:
       vitepress: ^1.0.0-alpha.60
     dependencies:
@@ -187,6 +187,7 @@ packages:
       '@docsearch/js': 3.3.3
       '@vueuse/core': 9.13.0_vue@3.2.47
       body-scroll-lock: 3.1.5
+      lodash: 4.17.21
       normalize.css: 8.0.1
       vitepress: 1.0.0-alpha.60_svno5mexjalzzlm4w6lhjlrqwe
     transitivePeerDependencies:
