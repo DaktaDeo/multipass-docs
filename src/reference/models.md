@@ -5,7 +5,7 @@ Model is a programmatic term and somewhat synonymous with `object`
 
 ## Board
 A board is a visual tool that empowers you - and your other active members in the team- to manage any type of project, workflow, or task tracking. 
-- see [Apps > Boards](../guide/apps/boards) 
+- see [Boards](../guide/boards) 
 
 
 ## Contact
