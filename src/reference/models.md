@@ -5,9 +5,8 @@ Model is a programmatic term and somewhat synonymous with `object`
 
 ## Board
 A board is a visual tool that empowers you - and your other active members in the team- to manage any type of project, workflow, or task tracking. 
-A board has 2 main characteristics: 
-- Columns or lists: the differents stages of a task.
-- Rows or cards: the items you manage. They hold the information you need to get the job done.
+- see [Apps > Boards](../guide/apps/boards) 
+
 
 ## Contact
 - see [Apps > Contacts](../guide/apps/contacts/models/contact) 
