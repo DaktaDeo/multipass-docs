@@ -3,13 +3,19 @@ I will use the term `Model` when talking _about piece that holds data_. That mea
 
 Model is a programmatic term and somewhat synonymous with `object`
 
+## Board
+A board is a visual tool that empowers you - and your other active members in the team- to manage any type of project, workflow, or task tracking. 
+A board has 2 main characteristics: 
+- Columns or lists: the differents stages of a task.
+- Rows or cards: the items you manage. They hold the information you need to get the job done.
+
 ## Contact
 - see [Apps > Contacts](../guide/apps/contacts/models/contact) 
 
 ## Human
 A Human is someone who is an active member of your team. Someone who you work with, internally. This can be someone who has an [Account](#account) or not.
 
-Humans are different from [Persons](#person), those are bound to a [Contacts](#contact) and are used for external connections
+Humans are different from [Persons](#person), those are bound to a [Contacts](#contact) and are used for external connections.
 
 see
 - [Apps > Humans](../guide/apps/humans/introduction)
