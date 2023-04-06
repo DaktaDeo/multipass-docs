@@ -29,7 +29,7 @@ After creating you Team you have instant access to all the available apps, inclu
 
 With them you can manage a lot of things like: Clients, Suppliers, Employees, Invoices, Payments, Products, Assembled Products, Product Configurations, Tournaments, Matches, Teams,  etc. Call it masterdata.
 
-[Boards](boards/introduction) is the visual tool to get things done like: tasks, workflow, lists, ect. 
+Boards is the visual tool to get things done like: tasks, workflow, lists, ect. 
 
 You may already have questions - don't worry. We will cover every little detail in the rest of the documentation. For now, please read along so you can have a high-level understanding of what Multipass offers.
 
