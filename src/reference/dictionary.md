@@ -16,6 +16,10 @@ The different parts of Multipass are defined by different apps. An App bundles s
 ## Displayname
 To identify each `Model` in your Team, you are _required_ to give them a `displayname` that is unique. This name is shown inside Multipass on all the lists, select boxes and other UI elements.
 
+
+## Listview
+A small table that summarize the most important characteristics. You can filter this list. You click through on the displayname to see or edit more details.
+
 ## Model
 I will use the term `Model` when talking _about piece that holds data_. That means that you can substitute the word for every node of data Multipass has in that context. be it a `Contact`, `Label`, 'Human', .. 
 
