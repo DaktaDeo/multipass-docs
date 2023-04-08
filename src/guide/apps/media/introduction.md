@@ -1,22 +1,38 @@
 # Introduction {#introduction}
-Media is the name for a wide range of files such as bitmaps, vector files, videos, documents, pdf's, etc
-Using `media` in different apps in Multipass can in two ways:
-- upload a file in the app Media.
-- use a hyperlink to an online image.
+On every website documentation is used to enrich structured information. We call it media. In Multipass you can add this kind of information in some parts of certain apps. There are two ways:
+- you upload a file in the `media` app. It is store in Multipass.
+- you use a hyperlink referring to an online image outside your Multipass.
+
+`Media` is the app where you collect a wide range of files you need to extent functionality. Two typical functions are
+- documents such as PDF files for instructions, certificates, ... or
+- images. Typical examples are visuals such as photos, drawings or videos.
 
 ## How to ...
 ### ... add new media
 It's time to upload your first media, an image. 
 <img srcset="https://cdn.beta.multipass.rocks/drive/meto-ligunai/6/a/1/responsive-images/8ca59b4f-3104-44da-a532-01e80250017e___media_library_original_280_165.png 280w, data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgMjgwIDE2NSI+Cgk8aW1hZ2Ugd2lkdGg9IjI4MCIgaGVpZ2h0PSIxNjUiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvanBlZztiYXNlNjQsLzlqLzRBQVFTa1pKUmdBQkFRRUFZQUJnQUFELy9nQTdRMUpGUVZSUFVqb2daMlF0YW5CbFp5QjJNUzR3SUNoMWMybHVaeUJKU2tjZ1NsQkZSeUIyT0RBcExDQnhkV0ZzYVhSNUlEMGdPVEFLLzlzQVF3QURBZ0lEQWdJREF3TURCQU1EQkFVSUJRVUVCQVVLQndjR0NBd0tEQXdMQ2dzTERRNFNFQTBPRVE0TEN4QVdFQkVURkJVVkZRd1BGeGdXRkJnU0ZCVVUvOXNBUXdFREJBUUZCQVVKQlFVSkZBMExEUlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVS84QUFFUWdBRXdBZ0F3RVJBQUlSQVFNUkFmL0VBQjhBQUFFRkFRRUJBUUVCQUFBQUFBQUFBQUFCQWdNRUJRWUhDQWtLQy8vRUFMVVFBQUlCQXdNQ0JBTUZCUVFFQUFBQmZRRUNBd0FFRVFVU0lURkJCaE5SWVFjaWNSUXlnWkdoQ0NOQ3NjRVZVdEh3SkROaWNvSUpDaFlYR0JrYUpTWW5LQ2txTkRVMk56ZzVPa05FUlVaSFNFbEtVMVJWVmxkWVdWcGpaR1ZtWjJocGFuTjBkWFozZUhsNmc0U0Zob2VJaVlxU2s1U1ZscGVZbVpxaW82U2xwcWVvcWFxeXM3UzF0cmU0dWJyQ3c4VEZ4c2ZJeWNyUzA5VFYxdGZZMmRyaDR1UGs1ZWJuNk9ucThmTHo5UFgyOS9qNSt2L0VBQjhCQUFNQkFRRUJBUUVCQVFFQUFBQUFBQUFCQWdNRUJRWUhDQWtLQy8vRUFMVVJBQUlCQWdRRUF3UUhCUVFFQUFFQ2R3QUJBZ01SQkFVaE1RWVNRVkVIWVhFVElqS0JDQlJDa2FHeHdRa2pNMUx3RldKeTBRb1dKRFRoSmZFWEdCa2FKaWNvS1NvMU5qYzRPVHBEUkVWR1IwaEpTbE5VVlZaWFdGbGFZMlJsWm1kb2FXcHpkSFYyZDNoNWVvS0RoSVdHaDRpSmlwS1RsSldXbDVpWm1xS2pwS1dtcDZpcHFyS3p0TFcydDdpNXVzTER4TVhHeDhqSnl0TFQxTlhXMTlqWjJ1TGo1T1htNStqcDZ2THo5UFgyOS9qNSt2L2FBQXdEQVFBQ0VRTVJBRDhBK3lkOG4vQzFNZmF1UDdsZlVOZjdKc2NYL0x3OVdrUmZONXVjZTFmTG5hQmpWUVQ5cDVvQXM2T29XNC8xKzgrbEFIaVMrTzlBZjRtSkVJRDlwWnNCcVA3VWsxN0hvZlV2aDZTdy93Qll1ZS8yK2sydDFFa3V6SllabzNQbDJyT3hQL1lWdGo3bEFoOEdrUVc3N2tUQm9BK1oxMGl6SHhSamNXNmJ0dzV4WGxjcTlvZm9qclZQcU5ybjA3WUFMYlJnY0RhSzlSSDU3TGRscW1TRkFILy8yUT09Ij4KCTwvaW1hZ2U+Cjwvc3ZnPg== 32w" onload="window.requestAnimationFrame(function(){if(!(size=getBoundingClientRect().width))return;onload=null;sizes=Math.ceil(size/window.innerWidth*100)+&#039;vw&#039;;});" sizes="1px" src="https://cdn.beta.multipass.rocks/drive/meto-ligunai/6/a/1/8ca59b4f-3104-44da-a532-01e80250017e.png" width="280" height="165">
-Click right below on `add`. Choose
-- upload one or more files from your system (preferred action) or
-- copy/paste one URL from a browser.  
-Wait while the file(s) or uploaded.
-Click `close` to return to the media list view. You see your first image. Automatically a thumbnail view is generated.
+Click right below on the button `add`. Choose
+- copy/paste one URL from a browser.
+  - Paste the URL in the text box and confirm with 'import'. 
+- upload one or more files from your system (preferred action). 
+  - Click on the paperclip to select one or more files. Confirm with 'upload'.
+
+Wait while the file(s) or uploaded. 'Close' appears. Click to confirm and to return to the media list view. Congrats, you see your first image. Automatically a thumbnail view is generated (can take upt to 5 seconds).
 
 ### ... update media details
-Mediatype or Kind can not be changed. It's determined by the file extension. 
-Your uploaded picture get a new, cryptic name. Based on the name of the file, a displayname is proposed. The Displaynam is used in Multipass everywhere you select a media item. It's a best practice to edit immediately media details for ease of use later on. Click on the `displayname` to edit:
+<img srcset="/drive/meto-ligunai/b/2/a/responsive-images/35a3fc12-8986-4daf-8558-e733aff4d044___media_library_original_705_208.png 705w, /drive/meto-ligunai/b/2/a/responsive-images/35a3fc12-8986-4daf-8558-e733aff4d044___media_library_original_589_174.png 589w, /drive/meto-ligunai/b/2/a/responsive-images/35a3fc12-8986-4daf-8558-e733aff4d044___media_library_original_493_145.png 493w, data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgNzA1IDIwOCI+Cgk8aW1hZ2Ugd2lkdGg9IjcwNSIgaGVpZ2h0PSIyMDgiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvanBlZztiYXNlNjQsLzlqLzRBQVFTa1pKUmdBQkFRRUFZQUJnQUFELy9nQTdRMUpGUVZSUFVqb2daMlF0YW5CbFp5QjJNUzR3SUNoMWMybHVaeUJKU2tjZ1NsQkZSeUIyT0RBcExDQnhkV0ZzYVhSNUlEMGdPVEFLLzlzQVF3QURBZ0lEQWdJREF3TURCQU1EQkFVSUJRVUVCQVVLQndjR0NBd0tEQXdMQ2dzTERRNFNFQTBPRVE0TEN4QVdFQkVURkJVVkZRd1BGeGdXRkJnU0ZCVVUvOXNBUXdFREJBUUZCQVVKQlFVSkZBMExEUlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVS84QUFFUWdBQ1FBZ0F3RVJBQUlSQVFNUkFmL0VBQjhBQUFFRkFRRUJBUUVCQUFBQUFBQUFBQUFCQWdNRUJRWUhDQWtLQy8vRUFMVVFBQUlCQXdNQ0JBTUZCUVFFQUFBQmZRRUNBd0FFRVFVU0lURkJCaE5SWVFjaWNSUXlnWkdoQ0NOQ3NjRVZVdEh3SkROaWNvSUpDaFlYR0JrYUpTWW5LQ2txTkRVMk56ZzVPa05FUlVaSFNFbEtVMVJWVmxkWVdWcGpaR1ZtWjJocGFuTjBkWFozZUhsNmc0U0Zob2VJaVlxU2s1U1ZscGVZbVpxaW82U2xwcWVvcWFxeXM3UzF0cmU0dWJyQ3c4VEZ4c2ZJeWNyUzA5VFYxdGZZMmRyaDR1UGs1ZWJuNk9ucThmTHo5UFgyOS9qNSt2L0VBQjhCQUFNQkFRRUJBUUVCQVFFQUFBQUFBQUFCQWdNRUJRWUhDQWtLQy8vRUFMVVJBQUlCQWdRRUF3UUhCUVFFQUFFQ2R3QUJBZ01SQkFVaE1RWVNRVkVIWVhFVElqS0JDQlJDa2FHeHdRa2pNMUx3RldKeTBRb1dKRFRoSmZFWEdCa2FKaWNvS1NvMU5qYzRPVHBEUkVWR1IwaEpTbE5VVlZaWFdGbGFZMlJsWm1kb2FXcHpkSFYyZDNoNWVvS0RoSVdHaDRpSmlwS1RsSldXbDVpWm1xS2pwS1dtcDZpcHFyS3p0TFcydDdpNXVzTER4TVhHeDhqSnl0TFQxTlhXMTlqWjJ1TGo1T1htNStqcDZ2THo5UFgyOS9qNSt2L2FBQXdEQVFBQ0VRTVJBRDhBL1Q4SUNEenpRQnlqNnJxUC9DUS9aUmJuN04vZnJOU2Q3Q090amlDb005YTBHTHNBb0FpWDc5QUZQL2w5cWVvR2kzU3FBV2dELzlrPSI+Cgk8L2ltYWdlPgo8L3N2Zz4= 32w" onload="window.requestAnimationFrame(function(){if(!(size=getBoundingClientRect().width))return;onload=null;sizes=Math.ceil(size/window.innerWidth*100)+&#039;vw&#039;;});" sizes="1px" src="/drive/meto-ligunai/b/2/a/35a3fc12-8986-4daf-8558-e733aff4d044.png" width="705" height="208">
+
+In the listview you see some detail information about a media file. Goto '[how to handle listview](../../reference/dictionary.md#listview)' to learn the general operation.
+
+| Column | Description |
+| ----------- | ----------- |
+| ID | Autogenerated unique number. If you delete a media, the number disappears. |
+| Type | Automatically filled in, based on the file extension of your file. Synonym for this mediatype is 'kind'. |
+| Thumbnail | Automatically generated small preview icon, 80x80 pixels small. If you don't see a preview, the file extension is not recognised. |
+| DisplayName | Text that is used in the Apps to select a media. Tip: use a structured way of naming the files |
+| Alt | Small text that is shown before a file is loaded. |
+
+It's a best practice to edit immediately media details for ease of use later on. Click on the `displayname` to edit these details.
 - Displayname: used in app's to select a media.
 - Publicname: leave blanc if you want to use the displayname in external applications.
 - Alt: small text that is shown before a file is loaded. 
