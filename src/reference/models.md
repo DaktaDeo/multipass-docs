@@ -18,9 +18,24 @@ see
 - [Apps > Humans](../guide/apps/humans/introduction)
 - [Apps > Contacts](../guide/apps/contacts/introduction)
 
+## Label (Taxonomy)
+A Label is a way to group different kinds of [Models] together. 
+In Multipass a Label can be used on all the different kinds of Models.
+They can be nested to create a hierarchy that works for your [Team]. 
+
+see
+- [Taxonomies](../guide/taxonomies/introduction)
+- [Taxonomies > Label](../guide/taxonomies/models/label)
+
+
 ## Person
 - see [Apps > Contacts](../guide/apps/contacts/models/person)
 
+## Status (Taxonomy)
+
+see 
+- [Taxonomies](../guide/taxonomies/introduction)
+- [Taxonomies > Status](../guide/taxonomies/models/status)
 
 ## Team
 Teams are _the_ core of Multipass. Each Team has his own database inside Multipass. Everything is bound to a single Team. You can however below to several Teams, with different roles.
@@ -32,4 +47,12 @@ A Team can be anything, including:
 - a small company
 - your personal team containing your own family data and relationships
 - and much much more
+
+## Type (Taxonomy)
+A [Type] is way to add a specific meaning to a Model.
+In contrast to a [Label] a [Type] is specific to one type of Model and cannot have children.
+
+see
+- [Taxonomies](../guide/taxonomies/introduction)
+- [Taxonomies > Type](../guide/taxonomies/models/type)
 
