@@ -10,28 +10,35 @@ A board consists of:
 - **Columns or Lists**: These represent distinct stages or categories for organizing your data.
 - **Rows or Cards**: These are individual units that hold and help you manage the information essential for effective data handling.
 
-## Creating a Board
+## Creating a New Board
 
-- In the top menu, click the “Boards” menu item.
-- A popup menu will appear with a list of all your boards.
-- Click 'add new board' to create a new board.
+To create a new board in Multipass, follow these simple steps:
 
-## Defining Stages
+1. In the top menu, navigate to the “Boards” menu item.
+2. A popup menu will appear, displaying a list of all your existing boards.
+3. Click on 'Add New Board' to initiate the creation of a new board.
 
-The columns or lists on your board are called “stages.”
-When we created our board in the previous step, we could select a bunch of stages from a list.
-These stages are the default stages that come with Multipass.
-You can use them as is, or you can customize them, and create new ones to suit your needs. 
 
-Once your board is set up, you can add or remove stages using the Stages field in the right sidebar.
+## Stages in Your Board
 
-### How to create a new State
+In Multipass, the columns or lists on your board are referred to as "Stages." When you created your board during the previous step, you had the option to select from a predefined list of stages. These default stages are provided by Multipass.
 
-- In the top menu, click the “Taxonomies” menu item.
-- A popup menu will appear with a list of all the available Taxonomies.
-- Click 'Stages' to open the Stages Taxonomy.
-- Click the red button on the lower right to create a new state.
-- Be sure to use a unique name for your new state & use as reference 'Board' in the list.
+You have the flexibility to use these stages as they are or customize them to better fit your specific needs. If necessary, you can also create entirely new stages.
+
+### Adding or Removing Stages
+
+Once your board is set up, you can easily manage your stages using the Stages field located in the right sidebar.
+
+### How to Create a New Stage
+
+To create a new stage, follow these steps:
+
+1. In the top menu, click on the “Taxonomies” menu item.
+2. A popup menu will appear, displaying a list of all available taxonomies.
+3. Locate and select 'Stages' to open the Stages Taxonomy.
+4. Click the red button located in the lower right corner to initiate the creation of a new stage.
+5. Make sure to provide a unique name for your new stage, and reference it under 'Board' in the list.
+
 
 ## Adding Cards
 
