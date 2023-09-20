@@ -15,9 +15,9 @@ If you have any questions, please contact Veerle directly us at [veerle@daktadeo
 
 Multipass is a new Bussiness Intelligence App with a Twist. 😉 
 
-Multipass takes the pain and hassle out of managing a small bussiness and can even be used to manage you association. It does not matter if you want to manage your own Team, have a full fledged Boat Price Calculator, organize a Soccer Tournament or just have a tool that handles your CRM data with flexibility - Multipass is the solution for you.
+Multipass takes the pain and hassle out of managing a small business and can even be used to manage you association. It does not matter if you want to manage your own Team, have a full-fledged Boat Price Calculator, organize a Soccer Tournament or just have a tool that handles your CRM data with flexibility—Multipass is the solution for you.
 
-After creating you Team you have instant access to all the available apps, including:
+After creating your Team, you have instant access to all the available apps, including:
 
 - [Calendar Events](apps/calendar-events/introduction)
 - [Contacts](apps/contacts/introduction)
@@ -27,11 +27,19 @@ After creating you Team you have instant access to all the available apps, inclu
 - [Sales](apps/sales/introduction)
 - [Tournaments](apps/tournaments/introduction)
 
-With them you can manage a lot of things like: Clients, Suppliers, Employees, Invoices, Payments, Products, Assembled Products, Product Configurations, Tournaments, Matches, Teams,  etc. Call it masterdata.
+With them you can manage a lot of things like: Clients, Suppliers, Employees, Invoices, Payments, Products, Assembled Products, Product Configurations, Tournaments, Matches, Teams, etc. Call it masterdata.
 
-Boards is the visual tool to get things done like: tasks, workflow, lists, ect. 
+Next to the apps, we have some overlapping features like:
 
-You may already have questions - don't worry. We will cover every little detail in the rest of the documentation. For now, please read along so you can have a high-level understanding of what Multipass offers.
+- [Boards](boards/introduction): the visual tool to get things done like: tasks, workflow, lists, …
+- [Options](options/introduction): Manage your data-options, like: measurement types, units, templates, etc. 
+- [Search](search/introduction): Find everything you need, fast.
+- [Settings](settings/introduction): Configure your Team, Users, Apps, Custom Fields, etc.
+- [Taxonomies](taxonomies/introduction): Organize your data in a structured way.
+
+You may already have questions—don't worry.
+We will cover every little detail in the rest of the documentation.
+For now, please read along so you can have a high-level understanding of what Multipass offers.
 
 :::tip Prerequisites
 The rest of the documentation assumes you know best how you want to use Multipass to organize _your_ data. All organizations are different. If you have questions on how to best structure your data, or need help doing just that, do not hesitate to contact us.
