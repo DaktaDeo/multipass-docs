@@ -8,6 +8,7 @@
     "preview": "node ./scripts/getArticles.mjs && vitepress preview",
     "preinstall": "npx only-allow pnpm"
   },
+  "type": "module",
   "dependencies": {
     "@daktadeo/theme": "^2.2.4",
     "@tailwindcss/aspect-ratio": "^0.4.2",
