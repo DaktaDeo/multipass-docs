@@ -28,6 +28,7 @@ const nav: ThemeConfig['nav'] = [
     activeMatch: `^/reference/`,
     items: [
       { text: 'Dictionary', link: '/reference/dictionary' },
+      { text: 'Markdown', link: '/reference/markdown' },
       { text: 'Models', link: '/reference/models' },
       { text: 'Settings', link: '/reference/settings' },
     ],

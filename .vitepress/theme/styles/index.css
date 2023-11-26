@@ -47,5 +47,9 @@ h1, h2, h3 {
   @apply object-cover w-full h-full saturate-50 opacity-80;
 }
 
+/*light version is badly styled*/
+pre.github-light.vp-code-light {
+  display: none !important;
+}
 
 
