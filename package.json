@@ -12,24 +12,24 @@
   "dependencies": {
     "@daktadeo/theme": "^2.2.4",
     "@tailwindcss/aspect-ratio": "^0.4.2",
-    "@tailwindcss/forms": "^0.5.6",
+    "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
     "@vue/repl": "^1.5.0",
-    "autoprefixer": "^10.4.15",
+    "autoprefixer": "^10.4.16",
     "dynamics.js": "^1.1.5",
     "gray-matter": "^4.0.3",
     "gsap": "^3.12.2",
     "lodash": "^4.17.21",
-    "postcss": "^8.4.30",
+    "postcss": "^8.4.31",
     "remove-markdown": "^0.5.0",
-    "tailwindcss": "^3.3.3",
+    "tailwindcss": "^3.3.5",
     "vitepress": "1.0.0-rc.15",
-    "vue": "^3.3.4"
+    "vue": "^3.3.9"
   },
   "devDependencies": {
     "@types/markdown-it": "^12.2.3",
-    "@types/node": "^16.18.53",
-    "terser": "^5.20.0"
+    "@types/node": "^16.18.65",
+    "terser": "^5.24.0"
   },
   "postcss": {
     "plugins": {
