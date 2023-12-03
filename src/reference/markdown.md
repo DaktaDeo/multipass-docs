@@ -132,10 +132,10 @@ The parser recognizes custom links with the following structure:
 A custom link is triggered by the opening curly brace and the word link, exactly as shown:`{link`
 
 ##### Attributes:
-- `model` (required): Specifies the type of model the link refers to. Must be enclosed in single or double quotes.
-- `id` (required): A unique identifier for the link, which can be numeric or alphanumeric. Numeric identifiers don't require quotes.
-- `text` (optional): The display text for the link. Must be enclosed in single or double quotes.
-- `slug` (optional): A slug representing a more readable or SEO-friendly identifier. Must be enclosed in single or double quotes.
+- `model` (required): Specifies the type of model the link refers to. Must be enclosed in single or double quotes. This attribute is always in lowercase.
+- `id` (required): A unique identifier for the link, which can be numeric or alphanumeric. Numeric identifiers don't require quotes. This attribute is always in lowercase.
+- `text` (optional): The display text for the link. Must be enclosed in single or double quotes. This attribute is always in lowercase.
+- `slug` (optional): A slug representing a more readable or SEO-friendly identifier. Must be enclosed in single or double quotes. This attribute is always in lowercase.
 
 ### Usage Examples
 1. Basic link with model and ID:
@@ -161,11 +161,15 @@ A custom link is triggered by the opening curly brace and the word link, exactly
 ```
 
 ### Notes
-The order of attributes is flexible; they can be specified in any sequence.
-All attributes except id must be enclosed in single or double quotes.
-The id attribute can be unquoted if it's numeric.
-Ensure that the attribute values do not contain the same quote type used to enclose them.
-Utilize this custom link syntax to enhance your markdown content with dynamically generated links specific to your application's needs.
+- The order of attributes is flexible; they can be specified in any sequence.
+- All attributes except id must be enclosed in single or double quotes.
+- The id attribute can be unquoted if it's numeric.
+- Ensure that the attribute values do not contain the same quote type used to enclose them.
+- The order of attributes does not matter and can be arranged in any desired sequence.
+- Consistency is key: ensure all attributes are in lowercase.
+- Enclose attribute values in single or double quotes.
+- Prevent the use of identical quote types within the attribute values as those enclosing them.
+- Utilize this custom link syntax to enhance your markdown content with dynamically generated links specific to your application's needs.
 
 
 ### Previewing Links
@@ -213,16 +217,24 @@ The Media Shortcode is designed for embedding media within our documentation or 
 
 #### Syntax
 
-The basic structure of the Media Shortcode is as follows:
+The basic structure of the Media Shortcode is:
 
 ```markdown
-{media id="uniqueIdentifier" height="displayHeight" classes="cssClasses" slug="mediaSlug"}
+{media id="uniqueidentifier" height="displayheight" classes="cssclasses" slug="mediaslug"}
 ```
 
-- `id` (required): Unique identifier for the media item.
-- `height` (optional): Specifies the display height of the media. Default is auto-adjusted.
-- `classes` (optional): Custom CSS classes for additional styling.
-- `slug` (optional): A readable or SEO-friendly identifier for the media.
+#### Parameters
+
+- `id` (required): Unique identifier for the media item. This attribute is always in lowercase.
+- `height` (optional): Specifies the display height of the media. Defaults to auto-adjusted if not specified. This attribute is always in lowercase.
+- `classes` (optional): Custom CSS classes for additional styling. This attribute is always in lowercase.
+- `slug` (optional): A readable or SEO-friendly identifier for the media. This attribute is always in lowercase.
+
+#### Notes
+- The order of attributes is irrelevant; they can be specified in any sequence.
+- All attributes must be in lowercase to ensure consistency and prevent errors.
+- Attribute values should be enclosed in single or double quotes.
+- Avoid using the same type of quotes within the attribute values as those used to enclose them.
 
 ### Examples
 1. Embedding an image with an identifier:
