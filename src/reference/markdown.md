@@ -125,7 +125,7 @@ Remember, this shortcode method is exclusive to our system and is integral to th
 The parser recognizes custom links with the following structure:
 
 ```markdown
-{link model="modelName" id="identifier" text="displayText" slug="pageSlug"}`
+{link model="modelName" id="identifier" text="displayText" slug="pageSlug"}
 ```
 
 ##### Trigger:
@@ -169,7 +169,7 @@ A custom link is triggered by the opening curly brace and the word link, exactly
 - Consistency is key: ensure all attributes are in lowercase.
 - Enclose attribute values in single or double quotes.
 - Prevent the use of identical quote types within the attribute values as those enclosing them.
-- Utilize this custom link syntax to enhance your markdown content with dynamically generated links specific to your application's needs.
+- Utilize this custom link syntax to enhance your markdown content with dynamically generated links specific to your application’s needs.
 
 
 ### Previewing Links
@@ -236,8 +236,8 @@ The basic structure of the Media Shortcode is:
 - All attributes must be in lowercase to ensure consistency and prevent errors.
 - Attribute values should be enclosed in single or double quotes.
 - Avoid using the same type of quotes within the attribute values as those used to enclose them.
-- An image will be wrapped inside a <figure> tag with a <figcaption> tag for the caption.
-- Every media item is wrapped inside a <div> tag with the class `inline-media-container` for styling purposes. Even the images
+- An image will be wrapped inside a `<figure>` tag with a `<figcaption>` tag for the caption.
+- Every media item is wrapped inside a `<div>` tag with the class `inline-media-container` for styling purposes. Even the images
 
 ### Examples
 1. Embedding an image with an identifier:
