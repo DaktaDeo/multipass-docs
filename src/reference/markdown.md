@@ -220,7 +220,7 @@ The Media Shortcode is designed for embedding media within our documentation or 
 The basic structure of the Media Shortcode is:
 
 ```markdown
-{media id="uniqueidentifier" height="displayheight" classes="cssclasses" slug="mediaslug"}
+{media id="uniqueidentifier" height="displayheight" classes="cssclasses" slug="mediaslug" caption="caption for the image"}
 ```
 
 #### Parameters
@@ -229,12 +229,15 @@ The basic structure of the Media Shortcode is:
 - `height` (optional): Specifies the display height of the media. Defaults to auto-adjusted if not specified. This attribute is always in lowercase.
 - `classes` (optional): Custom CSS classes for additional styling. This attribute is always in lowercase.
 - `slug` (optional): A readable or SEO-friendly identifier for the media. This attribute is always in lowercase.
+- `caption` (optional): A caption to describe the media content. This attribute is always in lowercase.
 
 #### Notes
 - The order of attributes is irrelevant; they can be specified in any sequence.
 - All attributes must be in lowercase to ensure consistency and prevent errors.
 - Attribute values should be enclosed in single or double quotes.
 - Avoid using the same type of quotes within the attribute values as those used to enclose them.
+- An image will be wrapped inside a <figure> tag with a <figcaption> tag for the caption.
+- Every media item is wrapped inside a <div> tag with the class `inline-media-container` for styling purposes. Even the images
 
 ### Examples
 1. Embedding an image with an identifier:
@@ -250,7 +253,7 @@ The basic structure of the Media Shortcode is:
 ```
 
 ### Conclusion
-Remember, the Media Shortcode enhances the way media is embedded and presented in our system. It's part of our commitment to delivering a more integrated and user-friendly experience across all DaktaDeo applications and websites.
+Remember, the Media Shortcode enhances the way media is embedded and presented in our system. It's part of our commitment to delivering a more integrated and user-friendly experience across all DaktaDeo applications and websites. Use the caption to add context to your media content and ensure a more engaging and informative presentation.
 
 ## Tables
 
