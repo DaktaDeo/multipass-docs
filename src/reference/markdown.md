@@ -267,3 +267,5 @@ Create tables for structured data:
 ```
 For HTML table to Markdown conversion, xls or other cool table tricks? Check out [TableConvert](https://tableconvert.com/html-to-markdown).
 
+## Webforms (inside Webcontents)
+see [Webform Shortcode](/guide/apps/website/models/webforms.html#webform-shortcode)

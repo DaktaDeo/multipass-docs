@@ -26,6 +26,7 @@ After creating your Team, you have instant access to all the available apps, inc
 - [Products](apps/products/introduction)
 - [Sales](apps/sales/introduction)
 - [Tournaments](apps/tournaments/introduction)
+- [Website](apps/website/introduction)
 
 With them you can manage a lot of things like: Clients, Suppliers, Employees, Invoices, Payments, Products, Assembled Products, Product Configurations, Tournaments, Matches, Teams, etc. Call it masterdata.
 

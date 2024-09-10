@@ -58,3 +58,17 @@ see
 - [Taxonomies](../guide/taxonomies/introduction)
 - [Taxonomies > Type](../guide/taxonomies/models/type)
 
+## Webcontent
+Webcontent is a Model that holds the content of a webpage. It can be used to create a static webpage or a blogpost. Webcontents can be linked to multiple Websites.
+
+## Webform
+A Webform is a Model that holds the structure of a form. It can be used to create a form that can be embedded in a Webcontent.
+
+see
+- [Apps > Website](../guide/apps/website/introduction)
+
+## Website
+A Website is a Model that holds the structure of a website, meta info and SEO. Webcontents can be linked to 1 or more Websites.
+
+see
+- [Apps > Website](../guide/apps/website/introduction)

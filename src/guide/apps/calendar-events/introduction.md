@@ -2,7 +2,7 @@
 
 The 'calendar-events' app puts you in control of your event planning.
 
-Not only can you efficiently reuse multipass data,
+Not only can you efficiently reuse Multipass data,
 but you also have the option to access premium features like digital registration.
 
 However, a standout capability of this app is its seamless export to Excel.
